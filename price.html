@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/jquery.arcticmodal-0.3.css"> <!--стиль модального окна-->
+    <link rel="stylesheet" href="styles/modal-theme-simple.css">  <!--светлый стиль модального окна-->
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="images/favicon.png" rel="shortcut icon">
+    <title>Цены на натяжные потолки</title>
+</head>
+<body>  
+
+<!--Header-->
+    
+    <header>
+        <div class="container head">
+            <img class="head__logo" alt="Логотип компании" src="images/logo.png">
+            <div>
+                <span class="head__button"><a class="cost" href="calculator.html"></a></span>
+                <span class="head__button"><a class="measure" id="measureBtn" href="#"></a></span>
+            </div>
+            
+            <div class="head__contact">
+                <div>
+                    <div><a href="https://wa.me/79267777777" target="_blank"><img class="svg-icon" src="svg/whatsapp-logo.svg" title="Связаться по Whatsapp" alt="Whatsapp"></a></div>
+                    <div><a href="viber://chat?number=%2B79267777777" target="_blank"><img class="svg-icon" src="svg/viber-logo.svg" title="Связаться по Viber"  alt="Viber"></a></div>
+                </div>
+
+                <div>
+                    <div class="txt-small txt-bold">ежедневно с 9:00 до 21:00</div>
+                    <div><a class="scale" href="tel:79267777777" title="Связаться по телефону"> +7 (926) XXX-XX-XX</a></div>
+                    <div><a class="scale" href="tel:74957777777" title="Связаться по телефону"> +7 (495) XXX-XX-XX</a></div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+<!--Main-->
+
+    <main class="wrapper">
+
+        <div class="head__line">
+            <nav class="container">
+                <button id="menuBtn" class="menu__button icon-menu"></button>
+                <ul id="menu" class="menu">
+                    <li class="menu-home"><a class="menu__link" href="index.html"><i class="icon-home"></i> Главная</a></li>
+                    <li><a class="menu__link position" href="price.html"><i class="icon-price-tag"></i> Цены</a></li>
+                    <li><a class="menu__link" href="light.html"><i class="icon-sun"></i> Освещение</a></li>
+                    <li><a class="menu__link" href="works.html"><i class="icon-hammer"></i> Работы</a></li>
+                    <li><a class="menu__link" href="promotions.html"><i class="icon-man"></i> Акции</a></li>
+                    <li><a class="menu__link" href="about.html"><i class="icon-book"></i> О компании</a></li>
+                    <li><a class="menu__link" href="contacts.html"><i class="icon-phone"></i> Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container content">
+
+<!--Main_for_price_page-->
+    
+            <div class="container__price-page"> 
+                <div class="container__price-page_side-bar">
+                    <!--Список сйадбара-->
+                    <ul class="price-list"> 
+                        <li>По материалу</li>
+                        <li><a href="price-pvc.html">ПВХ</a></li>
+                        <li><a href="price-cloth.html">Тканевые</a></li>
+                        <li><a href="price-satin.html">Сатиновые</a></li>
+                    </ul>
+                    <ul class="price-list"> 
+                        <li>По фактуре</li>
+                        <li><a href="price-gloss.html">Глянцевые</a></li>
+                        <li><a href="price-matte.html">Матовые</a></li>
+                    </ul>
+                    <ul class="price-list"> 
+                        <li>По конструкции</li>
+                        <li><a href="price-silent.html">Бесшовные</a></li>
+                        <li><a href="price-multilevel.html">Многоуровневые</a></li>
+                        <li><a href="price-soaring.html">Парящие</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="price-page__box-banner">
+                        <img class="price-page__box-banner_img-banner" src="images/banner.jpg" alt="Безопасные газовые баллоны" title="Газовые баллоны">
+                        <img class="price-page__box-banner_img-description" src="images/banner-description.jpg" alt="Безопасный газовый баллон" title="Газовый баллон">
+                    </div>
+                    <ul class="submenu txt-small">
+                    <li><a href="index.html" title="Перейти на главную страниицу">Главная</a></li>
+                    <li><a href="price.html" title="Вы находитесь на данной странице">Цены</a></li>
+                    </ul>
+                    <div class="txt-line_top"></div>
+                    <h3 class="unvisible"><span class="txt-bold txt-yellow txt-shadow_black">Цены</span> на натяжные потолки</h3>
+                    <div>
+                        <!--Список перед таблицей-->
+                        <ul class="list-table"> 
+                            <li><a href="#pvc">ПВХ</a></li>
+                            <li><a href="#satin">Сатин</a></li>
+                            <li><a href="#cloth">Тканевые</a></li>
+                            <li><a href="#light">С подсветкой</a></li>
+                            <li><a href="#two-levels">Двухуровневые</a></li>
+                            <li><a href="#add-works">Работы</a></li>
+                        </ul>
+
+                        <h4 class="unvisible2" id="pvc">Натяжные потолки из поливинилхлорида</h4>
+
+                        <table class="table-price unvisible">
+                            <tr>
+                                <th>Материал</th>
+                                <th>Температура эксплуатации, °С</th>
+                                <th>Гарантия</th>
+                                <th>Цена за 1м2 с установкой</th>
+                            </tr>
+                            <tr class="table-price__country">
+                                <td colspan="4" class="table-price__logo table-price__logo_msdn table-price__country_china">Китай</td>
+                            </tr>
+                            <tr>
+                                <td>Матовый белый</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>550 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Матовый цветной</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>850 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Глянцевый белый</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>600 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Глянцевый цветной</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>850 руб.</td>
+                            </tr>
+                            <tr class="table-price__country">
+                                <td colspan="4" class="table-price__logo table-price__logo_pongs table-price__country_germany">Германия</td>
+                            </tr>
+                            <tr>
+                                <td>Матовый белый</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>900 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Матовый цветной</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>1200 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Глянцевый белый</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>950 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Глянцевый цветной</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>1200 руб.</td>
+                            </tr>
+                            <tr class="table-price__country">
+                                <td colspan="4" class="table-price__logo table-price__logo_polyplast table-price__country_belgium">Бельгия</td>
+                            </tr>
+                            <tr>
+                                <td>Матовый белый</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>950 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Матовый цветной</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>1260 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Глянцевый белый</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>1000 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Глянцевый цветной</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>1250 руб.</td>
+                            </tr>
+                        </table>
+
+                        <h4 class="unvisible" id="satin">Сатиновые натяжные потолки</h4>
+
+                        <table class="table-price unvisible2">
+                            <tr>
+                                <th>Материал</th>
+                                <th>Температура эксплуатации, °С</th>
+                                <th>Гарантия</th>
+                                <th>Цена за 1м2 с установкой</th>
+                            </tr>
+                            <tr class="table-price__country">
+                                <td colspan="4" class="table-price__logo table-price__logo_msdn table-price__country_china">Китай</td>
+                            </tr>
+                            <tr>
+                                <td>Сатин белый</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>550 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Сатин цветной</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>850 руб.</td>
+                            </tr>
+                            <tr class="table-price__country">
+                                <td colspan="4" class="table-price__logo table-price__logo_pongs table-price__country_germany">Германия</td>
+                            </tr>
+                            <tr>
+                                <td>Сатин белый</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>900 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Сатин цветной</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>1200 руб.</td>
+                            </tr>
+                        </table>
+
+                        <h4 class="unvisible" id="cloth">Тканевые натяжные потолки</h4>
+
+                        <table class="table-price unvisible2">
+                            <tr>
+                                <th>Материал</th>
+                                <th>Температура эксплуатации, °С</th>
+                                <th>Гарантия</th>
+                                <th>Цена за 1м2 с установкой</th>
+                            </tr>
+                            <tr class="table-price__country">
+                                <td colspan="4" class="table-price__logo table-price__logo_descor table-price__country_germany">Германия</td>
+                            </tr>
+                            <tr>
+                                <td>Белый бесшовный</td>
+                                <td>от -30 °С до +50 °С</td>
+                                <td>15 лет</td>
+                                <td>2800 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Цветной бесшовный</td>
+                                <td>от -30 °С до +50 °С</td>
+                                <td>15 лет</td>
+                                <td>2800 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Бесшовный Descor Star</td>
+                                <td>от -30 °С до +50 °С</td>
+                                <td>15 лет</td>
+                                <td>3000 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>«Галактика»</td>
+                                <td>от 0 °С до + 50 °С</td>
+                                <td>15 лет</td>
+                                <td>1500 руб.</td>
+                            </tr>
+                        </table>
+
+                        <h4 class="unvisible" id="light">Натяжные потолки с подсветкой</h4>
+
+                        <table class="table-price unvisible2">
+                            <tr>
+                                <th>Название</th>
+                                <th>ед.изм.</th>
+                                <th>Цена с установкой</th>
+                            </tr>
+                            <tr>
+                                <td>Парящие</td>
+                                <td>м.пог.</td>
+                                <td>от 1700 руб</td>
+                            </tr>
+                            <tr>
+                                <td>С подсветкой через полотно (полный засвет)</td>
+                                <td>м.пог.</td>
+                                <td>от 1000 руб</td>
+                            </tr>
+                            <tr>
+                                <td>Световые линии</td>
+                                <td>м.пог.</td>
+                                <td>от 4000 руб</td>
+                            </tr>
+                            <tr>
+                                <td>Контурные потолки</td>
+                                <td>м.пог.</td>
+                                <td>от 1700 руб</td>
+                            </tr>
+                        </table>
+
+                        <h4 class="unvisible" id="two-levels">Двухуровневые натяжные потолки</h4>
+
+                        <table class="table-price unvisible2">
+                            <tr>
+                                <th>Название</th>
+                                <th>ед.изм.</th>
+                                <th>Цена с установкой</th>
+                            </tr>
+                            <tr>
+                                <td>Двухуровневые без подсветки</td>
+                                <td>м.пог.</td>
+                                <td>от 3500 руб</td>
+                            </tr>
+                            <tr>
+                                <td>Двухуровневые с подсветкой</td>
+                                <td>м.пог.</td>
+                                <td>от 4000 руб</td>
+                            </tr>
+                            <tr>
+                                <td>Двухуровневые с подсветкой в нише</td>
+                                <td>м.пог.</td>
+                                <td>от 4500 руб</td>
+                            </tr>
+                        </table>
+
+                        <h4 class="unvisible" id="add-works">Дополнительные виды работ</h4>
+
+                        <table class="table-price unvisible2">
+                            <tr>
+                                <th>Название</th>
+                                <th>ед.изм.</th>
+                                <th>Цена с установкой</th>
+                            </tr>
+                            <tr>
+                                <td>Обход трубы с окантовкой</td>
+                                <td>шт.</td>
+                                <td>150 - 300 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Крепление люстры универсальное</td>
+                                <td>шт.</td>
+                                <td>500 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Снятие/Установка люстры</td>
+                                <td>шт.</td>
+                                <td>500 - 1000 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Обход кондиционера</td>
+                                <td>шт.</td>
+                                <td>500 - 1000 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Криволинейный участок</td>
+                                <td>м.п.</td>
+                                <td>500 руб..</td>
+                            </tr>
+                            <tr>
+                                <td>Дополнительный угол (более 4-х в помещении)</td>
+                                <td>м.п.</td>
+                                <td>200 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Установка бруса</td>
+                                <td>м.п.</td>
+                                <td>700 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Установка потолочного карниза</td>
+                                <td>м.п.</td>
+                                <td>400 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Монтаж на сложную поверхность (плитка, керамогранит, ГКЛ и др.)</td>
+                                <td>м.п.</td>
+                                <td>150 - 500 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Демонтаж полотна</td>
+                                <td>м.п.</td>
+                                <td>40 руб. (но не менее 500 руб.)</td>
+                            </tr>
+                            <tr>
+                                <td>Светильник Ecola</td>
+                                <td>шт.</td>
+                                <td>от 400 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Монтаж электропроводки</td>
+                                <td>точка</td>
+                                <td>150 руб.</td>
+                            </tr>
+                        </table>
+
+                        <div>
+                            <p class="unvisible">При наличии рыхлых стен устанавливаемый профиль необходимо дополнительно закреплять к основному потолку "косыми" распорами (до 5 точек – бесплатно), иначе при натяжке полотна профиль может вырвать из стены.</p>
+                            <p class="unvisible2">Наша компания устанавливает натяжные потолки в помещениях разного назначения. У нас можно купить полотна для неотапливаемых или отапливаемых комнат с высоким, нормальным либо низким уровнем влажности. Мы продаем материалы без посредников, что позволяет формировать стоимость от 330 руб. за 1 м2. При этом реализуемая продукция отличается долговечностью, точностью структуры, надежностью и безупречным видом.</p>
+                                
+                            <h3 class="unvisible">От чего зависит стоимость?</h3>
+                            <p class="unvisible2">Цена установки натяжной конструкции формируется с учетом трех ключевых факторов:</p>
+                            <div class="container__price-page_box-cost-factors">
+                                <div class="unvisible3">
+                                    <h4>Материал</h4>
+                                    <img src="images/advantages/layers.png" class="box-cost-factors__img" alt="Материал" title="Материал полотна">
+                                    <p>Стоимость полотен европейских производителей более высокая. Чаще их заказывают для жилых помещений, гостиных, офисов крупных компаний, банков, других престижных заведений. Китайская продукция дешевле из-за худшего качества. Ее можно купить для кухни, коридора, ванной, кафе, магазина или бара. Если хотите получить стоимость за 1 метр материала на 20-25% ниже, заказывайте российские потолки.</p>
+                                </div>
+                                <div class="unvisible3">
+                                    <h4>Сложность проект-дизайна</h4>
+                                    <img src="images/advantages/project.png" class="box-cost-factors__img" alt="Проект-дизайна" title="Сложность проект-дизайна">
+                                    <p>Раскрой полотна и монтаж типовой конструкции в комнате стандартной планировки занимает минимум времени. Необходимость скрытия воздуховодов или других коммуникаций, а также большая площадь или сложная конфигурация помещения увеличивают как расход материалов, так и время установки. В то же время цена за 1 м2 в большой комнате ниже по сравнению с малогабаритным помещением.</p>
+                                </div>
+                                <div class="unvisible3">
+                                    <h4>Дополнительные работы</h4>
+                                    <img src="images/advantages/works.png" class="box-cost-factors__img" alt="Молоток" title="Дополнительные работы">
+                                    <p>Цена натяжного потолка также может увеличиться с учетом дополнительных операций, не связанных с монтажом каркаса или натягиванием полотна. В эту категорию входит монтаж цветных вставок, встроенных светильников и проводки, а также создание многоуровневых конструкций и различных эффектов.</p>
+                                </div>
+                            </div>
+
+                            <p>Cтоимость установки натяжного потолка в зависимости от размеров можно рассчитать на странице <a href="calculator.html" class="container__price-page_link-calc">калькулятора</a>.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" id="scroll_top"><img src="images/scroll_top.png" title="Вверх" alt="Вверх"></a>
+
+        </div>
+        
+        <!--модальное для замера-->
+        <div class="modal-window">
+            <div class="box-modal" id="feedbackModal">
+                <div class="box-modal_close arcticmodal-close">X</div>
+                <p class="txt-bold txt-center">Замер в течении <span class="txt-yellow txt-shadow_black">24ч.</span></p>
+                <div>
+                    <span class="txt-bold">Ваше <span class="txt-yellow txt-shadow_black">имя:</span> </span>
+                    <input type="text" maxlength="30" id="client-name" name="client-name" required>
+                </div>
+                <div>
+                    <span class="txt-bold">Ваш <span class="txt-yellow txt-shadow_black">телефон:</span></span>
+                    <input type="tel" id="client-phone" name="client-phone" maxlength="11" placeholder="74951111111" required>
+                </div>
+                <div>
+                    <span class="txt-bold">Комментарий:</span>
+                    <textarea maxlength="250"></textarea>
+                </div>
+                <button>Записаться</button>
+            </div>
+        </div>
+        
+        <script src="scripts/jquery-1.11.0.min.js"></script>
+        <script src="scripts/jquery-migrate-1.2.1.min.js"></script>
+        <script src="scripts/jquery.arcticmodal-0.3.min.js"></script> <!--скрипт для модального окна-->
+        <script src="scripts/scripts-menu.js"></script> <!--скрипт для меню-->
+        <script src="scripts/scripts-modal-price-page.js"></script> <!--скрипт модального окна-->
+        <script src="scripts/scrollreveal.js"></script> <!--скрипт для скролла-->
+        <script src="scripts/scripts-for-scrollreveal.js"></script> <!--скрипт для скролла-->
+        <script src="scripts/script-to-top-btn.js"></script> <!--скрипт кнопки вверх-->
+            
+    </main>
+
+<!--Footer-->   
+
+    <footer>
+        <div class="foot__line foot__line_top">
+            <div class="container">
+                <div class="foot foot__top">
+                    <div> Подписаться на нас в социальных сетях:
+                        <div>
+                            <a href="https://direct.yandex.ru/?utm_source=yandex&utm_medium=search&utm_campaign=maindirect_brand_desktop1304_othergeo&utm_content=none&---autotargeting&region=127&region_name=Швеция&etext=2202.Hx8G-S4lyhb43_4nGMHofVxaBSMs-dBO5j8LgnApecBuPhMBXj7nEHfmWUvGnmh5AFg2MccwfjKknF_otBA163hkY2R5dWNsc29nYWpzemo.86604b89cc62a6feeedcc3c67482de7021ba5382&yclid=1505079675547355159" target="_blank"><img class="svg-icon" src="svg/yandex-logo.svg" title="Перейти в Yandex" alt="Yandex"></a>
+                            <a href="https://vk.com" target="_blank"><img class="svg-icon" src="svg/vk-logo.svg" title="Перейти в VK" alt="VK"></a>
+                            <a href="https://telegram.org" target="_blank"><img class="svg-icon" src="svg/telegram-logo.svg" title="Перейти в Telegram" alt="Telegram"></a>
+                            <a href="https://www.youtube.com" target="_blank"><img class="svg-icon" src="svg/youtube-logo.svg" title="Перейти в YouTube" alt="YouTube"></a>
+                            <a href="https://www.instagram.com" target="_blank"><img class="svg-icon" src="svg/instagram-logo.svg" title="Перейти в Instagram" alt="Instagram"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div><span class="txt-bold">Адрес:</span> г. Москва, ул. Кировоградская, д. 23А, корп. 1, бизнес-центр «Art Gallery Business Park», цокольный этаж, каб. 23</div>
+                        <a class="txt-bold scale" href="contacts.html"><i class="icon-location2"></i> Карта</a>
+                    </div>
+                    <div>
+                        <div><a class="scale" href="tel:79267777777">+7 (926) XXX-XX-XX</a></div>
+                        <div><a class="scale" href="tel:74957777777">+7 (495) XXX-XX-XX</a></div>
+                        <div class="foot__mail txt-bold"><a class="scale" href="mailto:studiopotolok@google.com"><i class="icon-envelop"></i> StudioPotolok@google.com</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        <div class="foot__line foot__line_bottom">
+            <div class="container">
+                <div class="foot foot__bottom">
+                    <div>&copy; 2023 Компания "Студия потолков"</div>
+                    <img class="foot__bottom_img" alt="Виды оплат" src="images/payments.png">
+                    <a class="scale" href="privacy_policy.html">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

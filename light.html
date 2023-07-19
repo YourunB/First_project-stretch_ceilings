@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/lightbox.css"> <!--для галлереи светильников-->
+    <link rel="stylesheet" href="styles/jquery.arcticmodal-0.3.css"> <!--стиль модального окна-->
+    <link rel="stylesheet" href="styles/modal-theme-simple.css">  <!--светлый стиль модального окна-->
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="images/favicon.png" rel="shortcut icon"> 
+    <title>Освещение</title>
+</head>
+<body>  
+
+<!--Header-->
+    
+    <header>
+        <div class="container head">
+            <img class="head__logo" alt="Логотип компании" src="images/logo.png">
+            <div>
+                <span class="head__button"><a class="cost" href="calculator.html"></a></span>
+                <span class="head__button"><a class="measure" id="measureBtn" href="#"></a></span>
+            </div>
+            
+            <div class="head__contact">
+                <div>
+                    <div><a href="https://wa.me/79267777777" target="_blank"><img class="svg-icon" src="svg/whatsapp-logo.svg" title="Связаться по Whatsapp" alt="Whatsapp"></a></div>
+                    <div><a href="viber://chat?number=%2B79267777777" target="_blank"><img class="svg-icon" src="svg/viber-logo.svg" title="Связаться по Viber"  alt="Viber"></a></div>
+                </div>
+
+                <div>
+                    <div class="txt-small txt-bold">ежедневно с 9:00 до 21:00</div>
+                    <div><a class="scale" href="tel:79267777777" title="Связаться по телефону"> +7 (926) XXX-XX-XX</a></div>
+                    <div><a class="scale" href="tel:74957777777" title="Связаться по телефону"> +7 (495) XXX-XX-XX</a></div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+<!--Main-->
+
+    <main class="wrapper">
+
+        <div class="head__line">
+            <nav class="container">
+                <button id="menuBtn" class="menu__button icon-menu"></button>
+                <ul id="menu" class="menu">
+                    <li class="menu-home"><a class="menu__link" href="index.html"><i class="icon-home"></i> Главная</a></li>
+                    <li><a class="menu__link" href="price.html"><i class="icon-price-tag"></i> Цены</a></li>
+                    <li><a class="menu__link position" href="light.html"><i class="icon-sun"></i> Освещение</a></li>
+                    <li><a class="menu__link" href="works.html"><i class="icon-hammer"></i> Работы</a></li>
+                    <li><a class="menu__link" href="promotions.html"><i class="icon-man"></i> Акции</a></li>
+                    <li><a class="menu__link" href="about.html"><i class="icon-book"></i> О компании</a></li>
+                    <li><a class="menu__link" href="contacts.html"><i class="icon-phone"></i> Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container content">
+
+<!--Main_for_promotions_page-->
+
+            <div class="container__promotions">
+                <div>
+                    <ul class="submenu txt-small">
+                        <li><a href="index.html" title="Перейти на главную страниицу">Главная</a></li>
+                        <li><a href="about.html" title="Вы находитесь на данной странице">Освещение</a></li>
+                    </ul>
+                <div class="txt-line_top"></div>
+                <h3><span class="txt-bold txt-yellow txt-shadow_black">СВЕТОВОЕ РЕШЕНИЕ </span> ОТ <span class="txt-underline"> POTOLOKSTUDIO</span></h3>
+                <p class="txt-center unvisible">Преимущества светильников <span class="txt-bold txt-yellow txt-shadow_black">PotolokStudio</span> для натяжных потолков:</p>
+                
+                <div class="box-advantages">
+                    <div class="box-advantages__box-content unvisible2">
+                        <img class="box-advantages__box-content_img parallaxU" alt="Преимущества освещения DECKEN" src="images/advantages/decken1.png">
+                        <div class="box-advantages__box-content_text">Энергоэффективны</div>
+                    </div>
+                    <div class="box-advantages__box-content unvisible2">
+                        <img class="box-advantages__box-content_img parallaxU" alt="Преимущества освещения DECKEN" src="images/advantages/decken2.png">
+                        <div class="box-advantages__box-content_text">Множество вариантов освещения комнаты</div>
+                    </div>
+                    <div class="box-advantages__box-content unvisible2">
+                        <img class="box-advantages__box-content_img parallaxU" alt="Преимущества освещения DECKEN" src="images/advantages/decken3.png">
+                        <div class="box-advantages__box-content_text">Не загромождают пространство</div>
+                    </div>
+                    <div class="box-advantages__box-content unvisible2">
+                        <img class="box-advantages__box-content_img parallaxU" alt="Преимущества освещения DECKEN" src="images/advantages/decken4.png">
+                        <div class="box-advantages__box-content_text">Подходят в любой интерьер</div>
+                    </div>
+                </div>
+                <div class="txt-line_top"></div>
+            
+                    <div class="container__light">
+                    
+                        <h3>Характеристики освещения</h3>
+                        <div class="container__light_recommend">
+                            <div>
+                                <p><span class="txt-bold txt-yellow txt-shadow">Мощность.</span> Это классический параметр, на который в основном и ориентируются хозяева. Но, строго говоря, мощность — это просто указание, сколько электричества потребляет лампа.</p>
+                                <p>В интернете можно найти таблицы для подбора освещения по мощности. Рекомендуют 10 ватт мощности на квадратный метр для приглушенного света, 15 ватт — для среднего и 20 ватт — для яркого. Это лишь рекомендация, норм на этот счет нет. Расчет нужно делать отдельно для разных типов ламп: мощность ламп накаливания очень высокая, светодиодных — очень низкая.</p>
+                                <p class="txt-center txt-bold unvisible2">Соотношение мощностей разных ламп</p>
+                            </div>
+                            <table class="unvisible">
+                                <tr>
+                                    <th>Лампа накаливания</th>
+                                    <th>Люминесцентная лампа</th>
+                                    <th>Светодиодная лампа</th>
+                                </tr>
+                                <tr>
+                                    <td>20 Вт</td>
+                                    <td>5—7 Вт</td>
+                                    <td>2—3 Вт</td>
+                                </tr>
+                                <tr>
+                                    <td>40 Вт</td>
+                                    <td>10—13 Вт</td>
+                                    <td>4—6 Вт</td>
+                                </tr>
+                                <tr>
+                                    <td>60 Вт</td>
+                                    <td>15—16 Вт</td>
+                                    <td>7—10 Вт</td>
+                                </tr>
+                                <tr>
+                                    <td>75 Вт</td>
+                                    <td>18—20 Вт</td>
+                                    <td>10—12 Вт</td>
+                                </tr>
+                                <tr>
+                                    <td>100 Вт</td>
+                                    <td>25—30 Вт</td>
+                                    <td>12—16 Вт</td>
+                                </tr>
+                                <tr>
+                                    <td>150 Вт</td>
+                                    <td>40—50 Вт</td>
+                                    <td>17—20 Вт</td>
+                                </tr>
+                                <tr>
+                                    <td>200 Вт</td>
+                                    <td>60—80 Вт</td>
+                                    <td>20—30 Вт</td>
+                                </tr>
+                            </table>
+                            <p>Но сама идея подбирать освещение по мощности на квадратный метр — условная. Даже если учитывать потолки и, скажем, умножить результат расчета на 1,5 для высокой квартиры, все равно не будут приняты во внимание особенности интерьера. Например, белые стены хорошо отражают свет, а темный ковер на полу будет его поглощать.</p>
+                            <div>
+                                <p><span class="txt-bold txt-yellow txt-shadow">Световой поток.</span> Это количество света, который излучает лампа. Световой поток измеряется в люменах. Параметр в целом связан с мощностью и, как правило, каждый 1 ватт мощности прибавляет 80—150 люменов светового потока. Но бывает и наоборот: у менее мощной лампы световой поток больше, чем у лампы большей мощности.</p>
+                                <p>Для практического применения важно соотношение светового потока и площади освещаемой поверхности. Это называется освещенностью, и она измеряется в люксах. Проще говоря, люмены — это свет на выходе из светильника, а люксы — свет, который упал на поверхность.</p>
+                                <p>Правильнее говорить не сколько нужно ватт на квадратный метр, а сколько светильников нужно, чтобы получить, например, 200 люкс на письменном столе.</p>
+                                <p>Чтобы получить освещенность в люксах, световой поток делят на площадь: E = F / S.</p>
+                                <p>Лампа накаливания в 60 ватт дает световой поток примерно в 600 люмен. То есть на 1 м² придется 600 люкс. Это идеальный теоретический расчет, потому что мы не учли высоту потолков, расположение лампы, а также особенности помещения. В этот расчет можно ввести коэффициенты отражения, которые будут учитывать цвет стен, пола и потока: от 1 — «темный» до 2,5 — «белый глянец». Можно ввести поправку на высоту потолка. Но чтобы сделать грамотный и точный расчет, потребуется учесть и другие параметры.</p>
+                            </div>
+                            <div>
+                                <p><span class="txt-bold txt-yellow txt-shadow">Цветовая температура.</span> Этот параметр измеряется в кельвинах и характеризует оттенок цвета: обычно говорят про холодный, теплый или нейтральный свет. Но вариаций больше. Например, 1800 кельвинов — это пламя свечи, а около 6000 кельвинов дает солнце. Лампы с 10 000 кельвинов применяют в стоматологиях, это специальный медицинский свет.</p>
+                                <p>Цветовая температура влияет на психоэмоциональное состояние человека. В офисах чаще ставят источники нейтрального света, 4000 кельвинов: он стимулирует активность. А желтый свет — 2700 кельвинов— больше про отдых и расслабление. Светодизайнер может комбинировать температуры: днем в комнате нейтральный свет, а вечером желтый.</p>
+                                <img class="parallaxR" src="images/content/lights/lights-gradus-demo.webp" alt="Цветовая температора" title="Изображение цветовой темперуты света">
+                                <p class="txt-center txt-small">Чем выше значение цветовой температуры, тем цвет ближе к синему. Источник: Suriya KK / Shutterstock</p>
+                            </div>
+                            <div>
+                                <p><span class="txt-bold txt-yellow txt-shadow">Индекс цветопередачи.</span> Говорит, насколько хорошо источник освещения передает естественные цвета предметов, которые он освещает. Обозначается как CRI — Color Rendering Index.</p>
+                                <p>Именно из-за неверного подбора или просто невнимания к индексам цветопередачи часто обнуляются результаты очень интересных ремонтов. Освещение просто нивелирует естественный цвет материалов: дорогая столешница смотрится посредственно, фигурные элементы на мебели — плоско. И часто в массовом сегменте этот параметр на упаковке ламп просто не указан.</p>
+                                <img class="parallaxL" src="images/content/lights/lights-color-CRI.png" alt="Индекс цветовой передачи" title="На изображении показан индекс цветовой передачи">
+                                <p class="txt-center txt-small"> Индекс цветопередачи CRI. Источник: Suriya KK / Shutterstock</p>
+                            </div>
+                            <div>
+                                <h3 class="txt-yellow txt-shadow">Об освещении в квартире</h3>
+                                <ul> 
+                                    <li>Определитесь, сколько света вам нужно, чтобы чувствовать себя комфортно.</li>
+                                    <li>Измерьте приложением на телефоне или специальным прибором, сколько света есть в помещениях сейчас. Так вы поймете, что нужно изменить и где есть плохо освещенные места.</li>
+                                    <li>Чтобы получить действительно хороший результат, выбирайте полупрофессиональное или профессиональное световое оборудование, а не массовые светильники из строительных магазинов.</li>
+                                    <li>Если не хочется разбираться во всех характеристиках света, лучше ориентироваться на цифру в 400 лм на 1 м². Информация о люменах будет в паспорте светильника.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    
+                        <div class="gallery-light">
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/FA538AECH.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/FA538AECH.png" title="FA538AECH" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">FA538AECH</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/FA53RCECH.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/FA53RCECH.png" title="FA53RCECH" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">FA53RCECH</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/FA53RNECH.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/FA53RNECH.png" title="FA53RNECH" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">FA53RNECH</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/FB538AECH.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/FB538AECH.png" title="FB538AECH" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">FB538AECH</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/FB53H4ECB.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/FB53H4ECB.png" title="FB53H4ECB" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">FB53H4ECB</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/FB53RCECH.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/FB53RCECH.png" title="FB53RCECH" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">FB53RCECH</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/FB53RNECH.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/FB53RNECH.png" title="FB53RNECH" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">FB53RNECH</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/FC538AECH.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/FC538AECH.png" title="FC538AECH" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">FC538AECH</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/FC53H4EBC.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/FC53H4EBC.png" title="FC53H4EBC" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">FC53H4EBC</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/FC53RCECH.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/FC53RCECH.png" title="FC53RCECH" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">FC53RCECH</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/FC53RNECH.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/FC53RCECH.png" title="FC53RCECH" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">FC53RCECH</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/FM53RNECH.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/FM53RNECH.png" title="FM53RNECH" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">FM53RNECH</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/FM538AECH.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/FM538AECH.png" title="FM538AECH" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">FM538AECH</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/FN53H4ECB.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/FN53H4ECB.png" title="FN53H4ECB" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">FN53H4ECB</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/FP53H4ECB.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/FP53H4ECB.png" title="FP53H4ECB" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">FP53H4ECB</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/FS53H4ECB.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/FS53H4ECB.png" title="FS53H4ECB" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">FS53H4ECB</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/FW53H4ECB.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/FW53H4ECB.png" title="FW53H4ECB" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">FW53H4ECB</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/J-18-4W.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/J-18-4W.png" title="J-18-4W" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">J-18-4W</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/LF-401-6W.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/LF-401-6W.png" title="LF-401-6W" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">LF-401-6W</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/LF-401-12W.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/LF-401-12W.png" title="LF-401-12W" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">LF-401-12W</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/LF-401-18W.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/LF-401-18W.png" title="LF-401-18W" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">LF-401-18W</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/LPL-6+3W.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/LPL-6+3W.png" title="LPL-6+3W" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">LPL-6+3W</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/LY-301-H-7W.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/LY-301-H-7W.png" title="LY-301 H-7W" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">LY-301-H-7W</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/LY-301-5W.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/LY-301-5W.png" title="LY-301-5W" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">LY-301-5W</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/LY-301-14W.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/LY-301-14W.png" title="LY-301-14W" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">LY-301-14W</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/LY-301-18W.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/LY-301-18W.png" title="LY-301-18W" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">LY-301-18W</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/LY-501-6W.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/LY-501-6W.png" title="LY-501-6W" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">LY-501-6W</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/LY-501-12W.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/LY-501-12W.png" title="LY-501-12W" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">LY-501-12W</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/LY-501-18.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/LY-501-18.png" title="LY-501-18" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">LY-501-18</div>
+                            </div>
+                            <div class="gallery-light__item unvisible">
+                                <a class="gallery-light__item_link" href="images/content/lights/X-002-6+2W.png" data-lightbox="lamp"><img class="gallery-light__item_img" src="images/content/lights/X-002-6+2W.png" title="X-002-6+2W" alt="Лампочка"></a>
+                                <div class="gallery-light__item_article">X-002-6+2W</div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="#" id="scroll_top"><img src="images/scroll_top.png" title="Вверх" alt="Вверх"></a>
+
+        </div>
+
+        <!--модальное для замера-->
+        <div class="modal-window">
+            <div class="box-modal" id="feedbackModal">
+                <div class="box-modal_close arcticmodal-close">X</div>
+                <p class="txt-bold txt-center">Замер в течении <span class="txt-yellow txt-shadow_black">24ч.</span></p>
+                <div>
+                    <span class="txt-bold">Ваше <span class="txt-yellow txt-shadow_black">имя:</span> </span>
+                    <input type="text" maxlength="30" id="client-name" name="client-name" required>
+                </div>
+                <div>
+                    <span class="txt-bold">Ваш <span class="txt-yellow txt-shadow_black">телефон:</span></span>
+                    <input type="tel" id="client-phone" name="client-phone" maxlength="11" placeholder="74951111111" required>
+                </div>
+                <div>
+                    <span class="txt-bold">Комментарий:</span>
+                    <textarea maxlength="250"></textarea>
+                </div>
+                <button>Записаться</button>
+            </div>
+        </div>
+        
+        <script src="scripts/jquery-1.11.0.min.js"></script>
+        <script src="scripts/jquery-migrate-1.2.1.min.js"></script>
+        <script src="scripts/lightbox-plus-jquery.min.js"></script><!--скрипт галлереии-->
+        <script src="scripts/scripts-menu.js"></script> <!--скрипт для меню-->
+        <script src="scripts/jquery.arcticmodal-0.3.min.js"></script> <!--скрипт для модального окна-->
+        <script src="scripts/scripts-modal-one.js"></script> <!--скрипт для одного замера-->
+        <script src="scripts/simpleParallax.js"></script> <!--скрипт для параллакса-->
+        <script src="scripts/scripts-for-paralax-L-R.js"></script> <!--скрипт запускающий паралакс для изображений-->
+        <script src="scripts/scripts-for-paralax-U-D-overflow.js"></script> <!--скрипт запускающий паралакс для иконок-->
+        <script src="scripts/scrollreveal.js"></script> <!--скрипт для скролла-->
+        <script src="scripts/scripts-for-scrollreveal.js"></script> <!--скрипт для скролла-->
+        <script src="scripts/script-to-top-btn.js"></script> <!--скрипт кнопки вверх-->
+        
+    </main>
+
+<!--Footer-->   
+
+    <footer>
+        <div class="foot__line foot__line_top">
+            <div class="container">
+                <div class="foot foot__top">
+                    <div> Подписаться на нас в социальных сетях:
+                        <div>
+                            <a href="https://direct.yandex.ru/?utm_source=yandex&utm_medium=search&utm_campaign=maindirect_brand_desktop1304_othergeo&utm_content=none&---autotargeting&region=127&region_name=Швеция&etext=2202.Hx8G-S4lyhb43_4nGMHofVxaBSMs-dBO5j8LgnApecBuPhMBXj7nEHfmWUvGnmh5AFg2MccwfjKknF_otBA163hkY2R5dWNsc29nYWpzemo.86604b89cc62a6feeedcc3c67482de7021ba5382&yclid=1505079675547355159" target="_blank"><img class="svg-icon" src="svg/yandex-logo.svg" title="Перейти в Yandex" alt="Yandex"></a>
+                            <a href="https://vk.com" target="_blank"><img class="svg-icon" src="svg/vk-logo.svg" title="Перейти в VK" alt="VK"></a>
+                            <a href="https://telegram.org" target="_blank"><img class="svg-icon" src="svg/telegram-logo.svg" title="Перейти в Telegram" alt="Telegram"></a>
+                            <a href="https://www.youtube.com" target="_blank"><img class="svg-icon" src="svg/youtube-logo.svg" title="Перейти в YouTube" alt="YouTube"></a>
+                            <a href="https://www.instagram.com" target="_blank"><img class="svg-icon" src="svg/instagram-logo.svg" title="Перейти в Instagram" alt="Instagram"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div><span class="txt-bold">Адрес:</span> г. Москва, ул. Кировоградская, д. 23А, корп. 1, бизнес-центр «Art Gallery Business Park», цокольный этаж, каб. 23</div>
+                        <a class="txt-bold scale" href="contacts.html"><i class="icon-location2"></i> Карта</a>
+                    </div>
+                    <div>
+                        <div><a class="scale" href="tel:79267777777">+7 (926) XXX-XX-XX</a></div>
+                        <div><a class="scale" href="tel:74957777777">+7 (495) XXX-XX-XX</a></div>
+                        <div class="foot__mail txt-bold"><a class="scale" href="mailto:studiopotolok@google.com"><i class="icon-envelop"></i> StudioPotolok@google.com</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        <div class="foot__line foot__line_bottom">
+            <div class="container">
+                <div class="foot foot__bottom">
+                    <div>&copy; 2023 Компания "Студия потолков"</div>
+                    <img class="foot__bottom_img" alt="Виды оплат" src="images/payments.png">
+                    <a class="scale" href="privacy_policy.html">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

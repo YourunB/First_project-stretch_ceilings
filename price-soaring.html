@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/jquery.arcticmodal-0.3.css"> <!--стиль модального окна-->
+    <link rel="stylesheet" href="styles/modal-theme-simple.css">  <!--светлый стиль модального окна-->
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="images/favicon.png" rel="shortcut icon">
+    <title>Цены на натяжные потолки</title>
+</head>
+<body>  
+
+<!--Header-->
+    
+    <header>
+        <div class="container head">
+            <img class="head__logo" alt="Логотип компании" src="images/logo.png">
+            <div>
+                <span class="head__button"><a class="cost" href="calculator.html"></a></span>
+                <span class="head__button"><a class="measure" id="measureBtn" href="#"></a></span>
+            </div>
+            
+            <div class="head__contact">
+                <div>
+                    <div><a href="https://wa.me/79267777777" target="_blank"><img class="svg-icon" src="svg/whatsapp-logo.svg" title="Связаться по Whatsapp" alt="Whatsapp"></a></div>
+                    <div><a href="viber://chat?number=%2B79267777777" target="_blank"><img class="svg-icon" src="svg/viber-logo.svg" title="Связаться по Viber"  alt="Viber"></a></div>
+                </div>
+
+                <div>
+                    <div class="txt-small txt-bold">ежедневно с 9:00 до 21:00</div>
+                    <div><a class="scale" href="tel:79267777777" title="Связаться по телефону"> +7 (926) XXX-XX-XX</a></div>
+                    <div><a class="scale" href="tel:74957777777" title="Связаться по телефону"> +7 (495) XXX-XX-XX</a></div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+<!--Main-->
+
+    <main class="wrapper">
+
+        <div class="head__line">
+            <nav class="container">
+                <button id="menuBtn" class="menu__button icon-menu"></button>
+                <ul id="menu" class="menu">
+                    <li class="menu-home"><a class="menu__link" href="index.html"><i class="icon-home"></i> Главная</a></li>
+                    <li><a class="menu__link position" href="price.html"><i class="icon-price-tag"></i> Цены</a></li>
+                    <li><a class="menu__link" href="light.html"><i class="icon-sun"></i> Освещение</a></li>
+                    <li><a class="menu__link" href="works.html"><i class="icon-hammer"></i> Работы</a></li>
+                    <li><a class="menu__link" href="promotions.html"><i class="icon-man"></i> Акции</a></li>
+                    <li><a class="menu__link" href="about.html"><i class="icon-book"></i> О компании</a></li>
+                    <li><a class="menu__link" href="contacts.html"><i class="icon-phone"></i> Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container content">
+
+<!--Main_for_price-page-cloth-->
+    
+            <div class="container__price-page"> 
+                <div class="container__price-page_side-bar">
+                    <!--Список сйадбара-->
+                    <ul class="price-list"> 
+                        <li>По материалу</li>
+                        <li><a href="price-pvc.html">ПВХ</a></li>
+                        <li><a href="price-cloth.html">Тканевые</a></li>
+                        <li><a href="price-satin.html">Сатиновые</a></li>
+                    </ul>
+                    <ul class="price-list"> 
+                        <li>По фактуре</li>
+                        <li><a href="price-gloss.html">Глянцевые</a></li>
+                        <li><a href="price-matte.html">Матовые</a></li>
+                    </ul>
+                    <ul class="price-list"> 
+                        <li>По конструкции</li>
+                        <li><a href="price-silent.html">Бесшовные</a></li>
+                        <li><a href="price-multilevel.html">Многоуровневые</a></li>
+                        <li><a class="price-list__position-price" href="price-soaring.html">Парящие</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul class="submenu txt-small">
+                        <li><a href="index.html" title="Перейти на главную страниицу">Главная</a></li>
+                        <li><a href="price.html" title="Перейтин на страницу с ценами">Цены</a></li>
+                        <li><a href="price-cloth.html" title="Вы находитесь на данной странице">Парящие</a></li>
+                    </ul>
+                    <div class="txt-line_top"></div>
+                    <h3><span class="txt-shadow txt-yellow">Парящие</span> натяжные потолки</h3>
+                    <div>
+
+                        <div class="box-description">
+                            <img class="box-description__img box-description__img_left" src="images/example-of-materials/soaring.jpg" alt="Парящий потолок" title="Парящий натяжной потолок">
+                            <p>Новый способ оформления гостиных, коридоров, ресторанов — парящие натяжные потолки с подсветкой. Главная идея – в создании сложной конструкции с интересным контурным свечением по периметру. Несмотря на высокую стоимость, такие потолки стали чаще применять при отделке жилых и коммерческих помещений.</p>
+                            <p class="txt-center txt-bold"><button id="orederBtn" class="box-description__button">Заказать</button> от 1700 руб/м2 <span class="txt-small txt-normal"> (Цена указана c установкой под ключ. Для удобства.)</span></p>
+                            <h4 class="txt-center">Парящий натяжной потолок – сумма трех технологических составляющих</h4>
+                            <p>Берут ту же ПВХ-пленку или ткань из ассортимента в каталоге. Для придания специфического эффекта используют три технологических приема: невидимое крепление элементов алюминиевого профиля к основному потолку, соблюдение дистанции между полотном и прилегающими стенами, светодиодная подсветка потолка по периметру полотна.</p>
+                            <p>При выборе материалов предпочтение отдают ПВХ пленкам. Крепление винила к основе производят по простой гарпунной технологии. Работа с тканевыми полотнами сопровождается дополнительными сложностями. К потолку и стенам их крепят на клипсы или штапики. Трудоемкая технология, высокая стоимость материала и установка дополнительных багетов приводят к удорожанию услуги.</p>
+                            <img class="box-description__img box-description__img_right" src="images/example-of-materials/soaring-layout.jpg" alt="Схема парящий потолок" title="Схема парящего натяжного потолка">
+                            <p class="txt-center">По конструкции парящий профиль бывает:</p>
+                            <ul>
+                                <li>С наклонным бортиком. Он почти вплотную подходит к стене и прикрывает паз со светодиодной лентой. Это исключает ее просматриваемость с пола, если встать у стены и устремить взгляд вверх. Видно только деликатный свет, но не видно его источника.</li>
+                                <li>Прямым бортиком. Такой профиль дает более открытый и яркий свет. Но, если посмотреть под прямым углом с пола вверх, встав у стены, увидишь светодиодную ленту.</li>
+                                <li>С пластиковой заглушкой. Она вставляется в паз со светодиодной лентой и служит рассеивателем ее света. Это выручает даже при прямой конструкции бортика профиля. Свет лучится более деликатно. Ленты не видно. Но, видно сам пластик заглушки, что тоже устраивает не всех.</li>
+                                <li>Без пластиковой заглушки.</li>
+                            </ul>
+                            <h4 class="txt-center unvisible">Плсы и минусы</h4>
+                            <p class="unvisible2">Плюсы и минусы парящего натяжного потолка вытекают из его запчастей. Пленка, к примеру, привлекает ценой, простотой монтажа и ухода за ней, отсутствием растрескивания с годами и необходимости обновлять, подкрашивать и т. д. Но, в плане пожарной устойчивости к пленке есть вопросы.</p>
+                        </div>
+
+                        <table class="table-price unvisible">
+                            <tr>
+                                <th>Название</th>
+                                <th>ед.изм.</th>
+                                <th>Цена с установкой</th>
+                            </tr>
+                            <tr>
+                                <td>Парящие</td>
+                                <td>м.пог.</td>
+                                <td>от 1700 руб</td>
+                            </tr>
+                            <tr>
+                                <td>С подсветкой через полотно (полный засвет)</td>
+                                <td>м.пог.</td>
+                                <td>от 1000 руб</td>
+                            </tr>
+                            <tr>
+                                <td>Световые линии</td>
+                                <td>м.пог.</td>
+                                <td>от 4000 руб</td>
+                            </tr>
+                            <tr>
+                                <td>Контурные потолки</td>
+                                <td>м.пог.</td>
+                                <td>от 1700 руб</td>
+                            </tr>
+                        </table>
+                    
+                        <h4 class="unvisible2" id="add-works">Дополнительные виды работ</h4>
+                    
+                        <table class="table-price unvisible">
+                            <tr>
+                                <th>Название</th>
+                                <th>ед.изм.</th>
+                                <th>Цена с установкой</th>
+                            </tr>
+                            <tr>
+                                <td>Обход трубы с окантовкой</td>
+                                <td>шт.</td>
+                                <td>150 - 300 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Крепление люстры универсальное</td>
+                                <td>шт.</td>
+                                <td>500 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Снятие/Установка люстры</td>
+                                <td>шт.</td>
+                                <td>500 - 1000 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Обход кондиционера</td>
+                                <td>шт.</td>
+                                <td>500 - 1000 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Криволинейный участок</td>
+                                <td>м.п.</td>
+                                <td>500 руб..</td>
+                            </tr>
+                            <tr>
+                                <td>Дополнительный угол (более 4-х в помещении)</td>
+                                <td>м.п.</td>
+                                <td>200 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Установка бруса</td>
+                                <td>м.п.</td>
+                                <td>700 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Установка потолочного карниза</td>
+                                <td>м.п.</td>
+                                <td>400 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Монтаж на сложную поверхность (плитка, керамогранит, ГКЛ и др.)</td>
+                                <td>м.п.</td>
+                                <td>150 - 500 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Демонтаж полотна</td>
+                                <td>м.п.</td>
+                                <td>40 руб. (но не менее 500 руб.)</td>
+                            </tr>
+                            <tr>
+                                <td>Светильник Ecola</td>
+                                <td>шт.</td>
+                                <td>от 400 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Монтаж электропроводки</td>
+                                <td>точка</td>
+                                <td>150 руб.</td>
+                            </tr>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" id="scroll_top"><img src="images/scroll_top.png" title="Вверх" alt="Вверх"></a>
+
+        </div>
+
+        <!--модальное для замера-->
+        <div class="modal-window">
+            <div class="box-modal" id="feedbackModal">
+                <div class="box-modal_close arcticmodal-close">X</div>
+                <p class="txt-bold txt-center">Замер в течении <span class="txt-yellow txt-shadow_black">24ч.</span></p>
+                <div>
+                    <span class="txt-bold">Ваше <span class="txt-yellow txt-shadow_black">имя:</span> </span>
+                    <input type="text" maxlength="30" id="client-name" name="client-name" required>
+                </div>
+                <div>
+                    <span class="txt-bold">Ваш <span class="txt-yellow txt-shadow_black">телефон:</span></span>
+                    <input type="tel" id="client-phone" name="client-phone" maxlength="11" placeholder="74951111111" required>
+                </div>
+                <div>
+                    <span class="txt-bold">Комментарий:</span>
+                    <textarea maxlength="250"></textarea>
+                </div>
+                <button>Записаться</button>
+            </div>
+        </div>
+
+        <!--модальное для заказа-->
+        <div class="modal-window">
+            <div class="box-modal" id="orderModal">
+                <div class="box-modal_close arcticmodal-close">X</div>
+                <p class="txt-bold txt-center"><span class="txt-yellow txt-shadow_black">Монтаж</span> потолока без ожиданий</p>
+                <div>
+                    <span class="txt-bold">Ваше <span class="txt-yellow txt-shadow_black">имя:</span> </span>
+                    <input type="text" maxlength="30" id="client-name-order" name="client-name" required>
+                </div>
+                <div>
+                    <span class="txt-bold">Ваш <span class="txt-yellow txt-shadow_black">телефон:</span></span>
+                    <input type="tel" id="client-phone-order" name="client-phone" maxlength="11" placeholder="74951111111" required>
+                </div>
+                <div>
+                    <span class="txt-bold">Комментарий:</span>
+                    <textarea maxlength="250"></textarea>
+                </div>
+                <button>Заказать</button>
+            </div>
+        </div>
+        
+        <script src="scripts/jquery-1.11.0.min.js"></script>
+        <script src="scripts/jquery-migrate-1.2.1.min.js"></script>
+        <script src="scripts/jquery.arcticmodal-0.3.min.js"></script> <!--скрипт для модального окна-->
+        <script src="scripts/scripts-menu.js"></script> <!--скрипт для меню-->
+        <script src="scripts/scripts-modal-price-pages.js"></script> 
+        <script src="scripts/scrollreveal.js"></script> <!--скрипт для скролла-->
+        <script src="scripts/scripts-for-scrollreveal.js"></script> <!--скрипт для скролла-->
+        <script src="scripts/script-to-top-btn.js"></script> <!--скрипт кнопки вверх-->
+            
+    </main>
+
+<!--Footer-->   
+
+    <footer>
+        <div class="foot__line foot__line_top">
+            <div class="container">
+                <div class="foot foot__top">
+                    <div> Подписаться на нас в социальных сетях:
+                        <div>
+                            <a href="https://direct.yandex.ru/?utm_source=yandex&utm_medium=search&utm_campaign=maindirect_brand_desktop1304_othergeo&utm_content=none&---autotargeting&region=127&region_name=Швеция&etext=2202.Hx8G-S4lyhb43_4nGMHofVxaBSMs-dBO5j8LgnApecBuPhMBXj7nEHfmWUvGnmh5AFg2MccwfjKknF_otBA163hkY2R5dWNsc29nYWpzemo.86604b89cc62a6feeedcc3c67482de7021ba5382&yclid=1505079675547355159" target="_blank"><img class="svg-icon" src="svg/yandex-logo.svg" title="Перейти в Yandex" alt="Yandex"></a>
+                            <a href="https://vk.com" target="_blank"><img class="svg-icon" src="svg/vk-logo.svg" title="Перейти в VK" alt="VK"></a>
+                            <a href="https://telegram.org" target="_blank"><img class="svg-icon" src="svg/telegram-logo.svg" title="Перейти в Telegram" alt="Telegram"></a>
+                            <a href="https://www.youtube.com" target="_blank"><img class="svg-icon" src="svg/youtube-logo.svg" title="Перейти в YouTube" alt="YouTube"></a>
+                            <a href="https://www.instagram.com" target="_blank"><img class="svg-icon" src="svg/instagram-logo.svg" title="Перейти в Instagram" alt="Instagram"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div><span class="txt-bold">Адрес:</span> г. Москва, ул. Кировоградская, д. 23А, корп. 1, бизнес-центр «Art Gallery Business Park», цокольный этаж, каб. 23</div>
+                        <a class="txt-bold scale" href="contacts.html"><i class="icon-location2"></i> Карта</a>
+                    </div>
+                    <div>
+                        <div><a class="scale" href="tel:79267777777">+7 (926) XXX-XX-XX</a></div>
+                        <div><a class="scale" href="tel:74957777777">+7 (495) XXX-XX-XX</a></div>
+                        <div class="foot__mail txt-bold"><a class="scale" href="mailto:studiopotolok@google.com"><i class="icon-envelop"></i> StudioPotolok@google.com</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        <div class="foot__line foot__line_bottom">
+            <div class="container">
+                <div class="foot foot__bottom">
+                    <div>&copy; 2023 Компания "Студия потолков"</div>
+                    <img class="foot__bottom_img" alt="Виды оплат" src="images/payments.png">
+                    <a class="scale" href="privacy_policy.html">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

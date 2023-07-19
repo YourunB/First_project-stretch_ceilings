@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/slick.css"> <!--скрипт для слайдера-->
+    <link rel="stylesheet" type="text/css" href="styles/slick-theme.css"> <!--стиль слайдера-->
+    <link rel="stylesheet" href="styles/jquery.arcticmodal-0.3.css"> <!--стиль модального окна-->
+    <link rel="stylesheet" href="styles/modal-theme-simple.css">  <!--светлый стиль модального окна-->
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="images/favicon.png" rel="shortcut icon">
+    <title>О компании</title>
+</head>
+<body>  
+
+<!--Header-->
+    
+    <header>
+        <div class="container head">
+            <img class="head__logo" alt="Логотип компании" src="images/logo.png">
+            <div>
+                <span class="head__button"><a class="cost" href="calculator.html"></a></span>
+                <span class="head__button"><a class="measure" id="measureBtn" href="#"></a></span>
+            </div>
+            
+            <div class="head__contact_start-page head__contact">
+                <div>
+                    <div><a href="https://wa.me/79267777777" target="_blank"><img class="svg-icon" src="svg/whatsapp-logo.svg" title="Связаться по Whatsapp" alt="Whatsapp"></a></div>
+                    <div><a href="viber://chat?number=%2B79267777777" target="_blank"><img class="svg-icon" src="svg/viber-logo.svg" title="Связаться по Viber"  alt="Viber"></a></div>
+                </div>
+            
+                <div>
+                    <div class="txt-small txt-bold">ежедневно с 9:00 до 21:00</div>
+                    <div><a class="scale" href="tel:79267777777" title="Связаться по телефону"> +7 (926) XXX-XX-XX</a></div>
+                    <div><a class="scale" href="tel:74957777777" title="Связаться по телефону"> +7 (495) XXX-XX-XX</a></div>
+                </div>
+            </div>
+        
+        </div>
+    </header>
+
+<!--Main-->
+
+    <main class="wrapper">
+
+        <div class="head__line">
+            <nav class="container">
+                <button id="menuBtn" class="menu__button icon-menu"></button>
+                <ul id="menu" class="menu">
+                    <li class="menu-home"><a class="menu__link" href="index.html"><i class="icon-home"></i> Главная</a></li>
+                    <li><a class="menu__link" href="price.html"><i class="icon-price-tag"></i> Цены</a></li>
+                    <li><a class="menu__link" href="light.html"><i class="icon-sun"></i> Освещение</a></li>
+                    <li><a class="menu__link" href="works.html"><i class="icon-hammer"></i> Работы</a></li>
+                    <li><a class="menu__link" href="promotions.html"><i class="icon-man"></i> Акции</a></li>
+                    <li><a class="menu__link position" href="about.html"><i class="icon-book"></i> О компании</a></li>
+                    <li><a class="menu__link" href="contacts.html"><i class="icon-phone"></i> Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container content">
+
+<!--Main_for_about_page-->
+        
+            <div class="container__about-page">
+                <div class="container__about-page_top">
+                    <ul class="submenu txt-small">
+                        <li><a href="index.html" title="Перейти на главную страниицу">Главная</a></li>
+                        <li><a href="about.html" title="Вы находитесь на данной странице">О компании</a></li>
+                    </ul>
+                    <div class="txt-line_top"></div>
+                    <h3 class="unvisible">О компании</h3>
+                    <div class="box-skills">
+                        <div class="box-skills__item">
+                            <div class="box-skills__item_number"> 1 </div>
+                            <div class="box-skills__item_text">
+                                <h3>Собственное производство</h3>
+                                <p>Мы сами изготавливаем натяжные полотна и конструкции, поэтому мы уверены в качестве и не делаем наценок</p>
+                            </div>
+                        </div>
+                        <div class="box-skills__item">
+                            <div class="box-skills__item_number"> 2 </div>
+                            <div class="box-skills__item_text">
+                                <h3>Прямые контакты с производителями</h3>
+                                <p>Не работаем с теми, кому не доверяем и даем вам гарантию до 15 лет на полотна и 1 месяц на осветительные приборы</p>
+                            </div>
+                        </div><div class="box-skills__item">
+                            <div class="box-skills__item_number"> 3 </div>
+                            <div class="box-skills__item_text">
+                                <h3>Постоянная оптимизация производства</h3>
+                                <p>Мы не любим сложное. Поэтому постоянно анализируем и оптимизируем всё сделанное, чтобы стало лучше и проще</p>
+                            </div>
+                        </div><div class="box-skills__item">
+                            <div class="box-skills__item_number"> 4 </div>
+                            <div class="box-skills__item_text">
+                                <h3>Отсутствие посредников</h3>
+                                <p>Мы несем ответственность только за свою работу, так нам проще разобраться с проблемами, если они возникают</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box-advantages">
+                        <div class="box-advantages__box-content">
+                            <img class="box-advantages__box-content_img parallaxL" alt="Преимущества" src="images/advantages/why1.png">
+                            <div class="box-advantages__box-content_text">Европейское качество</div>
+                        </div>
+                        <div class="box-advantages__box-content">
+                            <img class="box-advantages__box-content_img parallaxL" alt="Преимущества" src="images/advantages/why2.png">
+                            <div class="box-advantages__box-content_text">3 года гарантии на монтажные работы</div>
+                        </div>
+                        <div class="box-advantages__box-content">
+                            <img class="box-advantages__box-content_img parallaxL" alt="Преимущества" src="images/advantages/why3.png">
+                            <div class="box-advantages__box-content_text">15 лет гарантии на полотно</div>
+                        </div>
+                        <div class="box-advantages__box-content">
+                            <img class="box-advantages__box-content_img parallaxR" alt="Преимущества" src="images/advantages/why4.png">
+                            <div class="box-advantages__box-content_text">Честная смета</div>
+                        </div>
+                        <div class="box-advantages__box-content">
+                            <img class="box-advantages__box-content_img parallaxR" alt="Преимущества" src="images/advantages/why5.png">
+                            <div class="box-advantages__box-content_text">Экологическая безопасность</div>
+                        </div>
+                        <div class="box-advantages__box-content">
+                            <img class="box-advantages__box-content_img parallaxR" alt="Преимущества" src="images/advantages/why6.png">
+                            <div class="box-advantages__box-content_text">Монтаж на облегченный алюминиевый профиль</div>
+                        </div>
+                    </div>
+                    <div class="txt-line_top"></div>
+                </div>
+
+                <div class="container__about-page_center">
+                    <h3>КАЧЕСТВО ПОЛОТЕН — ВАЖНЕЙШЕЕ ТРЕБОВАНИЕ</h3>
+                    <div class="box-certificate">
+                        <img class="parallaxL" src="images/certificate/sert1.webp" alt="Сертификация" title="Имеется сертификация">
+                        <img class="parallaxL" src="images/certificate/sert2.webp" alt="Сертификация" title="Имеется сертификация">
+                        <img class="parallaxL" src="images/certificate/sert3.webp" alt="Сертификация" title="Имеется сертификация">
+                        <img src="images/certificate/sert4.webp" alt="Сертификация" title="Имеется сертификация">
+                        <img class="parallaxR" src="images/certificate/sert5.webp" alt="Сертификация" title="Имеется сертификация">
+                        <img class="parallaxR" src="images/certificate/sert6.webp" alt="Сертификация" title="Имеется сертификация">
+                        <img class="parallaxR" src="images/certificate/sert7.webp" alt="Сертификация" title="Имеется сертификация">
+                    </div>
+                    <div class="box-about-quality">
+                        <div>Натяжные потолки с установкой — не только возможность быстро провести ремонтные работы, но и формирование уникального интерьера. Обращайтесь к профессионалам, и мы выполним работу любой сложности в кратчайшие сроки и на самом высоком уровне по доступной цене! Помимо выбора оптимальной технологии, при изготовлении натяжных потолков наши мастера особое внимание уделяют подбору материала. Мы используем только качественные, красивые, надежные и полностью безопасные в экологическом плане полотна.</div>
+                        <div>Для работы применяются сертифицированное сырье двух категорий: Высококачественная ПВХ-пленка. Специальная ткань. Оба этих материала не содержат в своем составе опасных компонентов и по всем параметрам соответствуют требованиям ГОСТ, СНиП и международных стандартов качества и безопасности.</div>
+                    </div>
+                </div>
+
+                <div class="container__about-page_bottom unvisible2">
+                    <h3>БОЛЕЕ 5 ЛЕТ ДЕЛАЕМ ХОРОШИЕ ПОТОЛКИ</h3>
+                    <img src="images/installer/4.png" alt="Монтажник" title="ДЕЛАЕМ ХОРОШИЕ ПОТОЛКИ">
+                    <p>Пожалуй, всем приятно, когда работа выполняется в срок и без форс-мажоров. Каждый хочет быть уверен, что заказывая установку натяжных потолков, он получит качественные материалы и заявленную прочность конструкции. Благодаря нашему опыту, мы можем это гарантировать каждому нашему клиенту. Обученный персонал сможет грамотно проконсультировать вас по любому вопросу, касающемуся потолков, а профессиональные бригады решат любые сложности монтажа даже в самых труднодоступных местах. Убедитесь в этом — пригласите замерщика сейчас, и мы приедем в течении суток!</p>
+                </div>
+            </div>
+        
+            <div class="multiple-slider unvisible">
+                <div class="multiple-slider__slide">
+                    <img src="images/content/works/1.jpg" alt="Картинка из слайдера" class="multiple-slider__slide_img">
+                </div>
+                <div class="multiple-slider__slide">
+                    <img src="images/content/works/2.jpg" alt="Картинка из слайдера" class="multiple-slider__slide_img">
+                </div>
+                <div class="multiple-slider__slide">
+                    <img src="images/content/works/3.jpg" alt="Картинка из слайдера" class="multiple-slider__slide_img">
+                </div>
+                <div class="multiple-slider__slide">
+                    <img src="images/content/works/4.jpg" alt="Картинка из слайдера" class="multiple-slider__slide_img">
+                </div>
+                <div class="multiple-slider__slide">
+                    <img src="images/content/works/5.jpg" alt="Картинка из слайдера" class="multiple-slider__slide_img">
+                </div>
+                <div class="multiple-slider__slide">
+                    <img src="images/content/works/6.jpg" alt="Картинка из слайдера" class="multiple-slider__slide_img">
+                </div>
+                <div class="multiple-slider__slide">
+                    <img src="images/content/works/8.jpg" alt="Картинка из слайдера" class="multiple-slider__slide_img">
+                </div>
+            </div>
+
+            <a href="#" id="scroll_top"><img src="images/scroll_top.png" title="Вверх" alt="Вверх"></a>
+
+        </div>
+
+        <!--модальное для замера-->
+        <div class="modal-window">
+            <div class="box-modal" id="feedbackModal">
+                <div class="box-modal_close arcticmodal-close">X</div>
+                <p class="txt-bold txt-center">Замер в течении <span class="txt-yellow txt-shadow_black">24ч.</span></p>
+                <div>
+                    <span class="txt-bold">Ваше <span class="txt-yellow txt-shadow_black">имя:</span> </span>
+                    <input type="text" maxlength="30" id="client-name" name="client-name" required>
+                </div>
+                <div>
+                    <span class="txt-bold">Ваш <span class="txt-yellow txt-shadow_black">телефон:</span></span>
+                    <input type="tel" id="client-phone" name="client-phone" maxlength="11" placeholder="74951111111" required>
+                </div>
+                <div>
+                    <span class="txt-bold">Комментарий:</span>
+                    <textarea maxlength="250"></textarea>
+                </div>
+                <button>Записаться</button>
+            </div>
+        </div>
+
+        <script src="scripts/jquery-1.11.0.min.js"></script>
+        <script src="scripts/jquery-migrate-1.2.1.min.js"></script>
+        <script src="scripts/slick/slick.min.js"></script>
+        <script src="scripts/scripts-for-sclick.js"></script>
+        <script src="scripts/scripts-menu.js"></script> <!--скрипт для меню-->
+        <script src="scripts/jquery.arcticmodal-0.3.min.js"></script> <!--скрипт для модального окна-->
+        <script src="scripts/scripts-modal-one.js"></script> <!--скрипт для одного замера-->
+        <script src="scripts/simpleParallax.js"></script> <!--скрипт для параллакса-->
+        <script src="scripts/scripts-for-paralax-L-R-overflow.js"></script> <!--скрипт запускающий паралакс для изображений-->
+        <script src="scripts/scripts-for-paralax-U-D-overflow.js"></script> <!--скрипт запускающий паралакс для изображений-->
+        <script src="scripts/scrollreveal.js"></script> <!--скрипт для скролла-->
+        <script src="scripts/scripts-for-scrollreveal.js"></script> <!--скрипт для скролла-->
+        <script src="scripts/script-to-top-btn.js"></script> <!--скрипт кнопки вверх-->
+            
+    </main>
+
+<!--Footer-->   
+
+    <footer>
+        <div class="foot__line foot__line_top">
+            <div class="container">
+                <div class="foot foot__top">
+                    <div> Подписаться на нас в социальных сетях:
+                        <div>
+                            <a href="https://direct.yandex.ru/?utm_source=yandex&utm_medium=search&utm_campaign=maindirect_brand_desktop1304_othergeo&utm_content=none&---autotargeting&region=127&region_name=Швеция&etext=2202.Hx8G-S4lyhb43_4nGMHofVxaBSMs-dBO5j8LgnApecBuPhMBXj7nEHfmWUvGnmh5AFg2MccwfjKknF_otBA163hkY2R5dWNsc29nYWpzemo.86604b89cc62a6feeedcc3c67482de7021ba5382&yclid=1505079675547355159" target="_blank"><img class="svg-icon" src="svg/yandex-logo.svg" title="Перейти в Yandex" alt="Yandex"></a>
+                            <a href="https://vk.com" target="_blank"><img class="svg-icon" src="svg/vk-logo.svg" title="Перейти в VK" alt="VK"></a>
+                            <a href="https://telegram.org" target="_blank"><img class="svg-icon" src="svg/telegram-logo.svg" title="Перейти в Telegram" alt="Telegram"></a>
+                            <a href="https://www.youtube.com" target="_blank"><img class="svg-icon" src="svg/youtube-logo.svg" title="Перейти в YouTube" alt="YouTube"></a>
+                            <a href="https://www.instagram.com" target="_blank"><img class="svg-icon" src="svg/instagram-logo.svg" title="Перейти в Instagram" alt="Instagram"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div><span class="txt-bold">Адрес:</span> г. Москва, ул. Кировоградская, д. 23А, корп. 1, бизнес-центр «Art Gallery Business Park», цокольный этаж, каб. 23</div>
+                        <a class="txt-bold scale" href="contacts.html"><i class="icon-location2"></i> Карта</a>
+                    </div>
+                    <div>
+                        <div><a class="scale" href="tel:79267777777">+7 (926) XXX-XX-XX</a></div>
+                        <div><a class="scale" href="tel:74957777777">+7 (495) XXX-XX-XX</a></div>
+                        <div class="foot__mail txt-bold"><a class="scale" href="mailto:studiopotolok@google.com"><i class="icon-envelop"></i> StudioPotolok@google.com</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        <div class="foot__line foot__line_bottom">
+            <div class="container">
+                <div class="foot foot__bottom">
+                    <div>&copy; 2023 Компания "Студия потолков"</div>
+                    <img class="foot__bottom_img" alt="Виды оплат" src="images/payments.png">
+                    <a class="scale" href="privacy_policy.html">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

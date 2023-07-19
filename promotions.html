@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/jquery.arcticmodal-0.3.css"> <!--стиль модального окна-->
+    <link rel="stylesheet" href="styles/modal-theme-simple.css">  <!--светлый стиль модального окна-->
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="images/favicon.png" rel="shortcut icon"> 
+    <title>Акции и скидки</title>
+</head>
+<body>  
+
+<!--Header-->
+    
+    <header>
+        <div class="container head">
+            <img class="head__logo" alt="Логотип компании" src="images/logo.png">
+            <div>
+                <span class="head__button"><a class="cost" href="calculator.html"></a></span>
+                <span class="head__button"><a class="measure" id="measureBtn" href="#"></a></span>
+            </div>
+            
+            <div class="head__contact">
+                <div>
+                    <div><a href="https://wa.me/79267777777" target="_blank"><img class="svg-icon" src="svg/whatsapp-logo.svg" title="Связаться по Whatsapp" alt="Whatsapp"></a></div>
+                    <div><a href="viber://chat?number=%2B79267777777" target="_blank"><img class="svg-icon" src="svg/viber-logo.svg" title="Связаться по Viber"  alt="Viber"></a></div>
+                </div>
+
+                <div>
+                    <div class="txt-small txt-bold">ежедневно с 9:00 до 21:00</div>
+                    <div><a class="scale" href="tel:79267777777" title="Связаться по телефону"> +7 (926) XXX-XX-XX</a></div>
+                    <div><a class="scale" href="tel:74957777777" title="Связаться по телефону"> +7 (495) XXX-XX-XX</a></div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+<!--Main-->
+
+    <main class="wrapper">
+
+        <div class="head__line">
+            <nav class="container">
+                <button id="menuBtn" class="menu__button icon-menu"></button>
+                <ul id="menu" class="menu">
+                    <li class="menu-home"><a class="menu__link" href="index.html"><i class="icon-home"></i> Главная</a></li>
+                    <li><a class="menu__link" href="price.html"><i class="icon-price-tag"></i> Цены</a></li>
+                    <li><a class="menu__link" href="light.html"><i class="icon-sun"></i> Освещение</a></li>
+                    <li><a class="menu__link" href="works.html"><i class="icon-hammer"></i> Работы</a></li>
+                    <li><a class="menu__link position" href="promotions.html"><i class="icon-man"></i> Акции</a></li>
+                    <li><a class="menu__link" href="about.html"><i class="icon-book"></i> О компании</a></li>
+                    <li><a class="menu__link" href="contacts.html"><i class="icon-phone"></i> Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container content">
+
+<!--Main_for_promotions_page-->
+
+            <div class="container__promotions">
+                <div>
+                    <ul class="submenu txt-small">
+                        <li><a href="index.html" title="Перейти на главную страниицу">Главная</a></li>
+                        <li><a href="promotions.html" title="Вы находитесь на данной странице">Акции</a></li>
+                    </ul>
+                <div class="txt-line_top"></div>
+                <h3 class="txt-shadow container__promotions_title">Действующие <span class="txt-bold txt-yellow txt-shadow_black">акции</span> и <span class="txt-bold txt-yellow txt-shadow_black">скидки</span></h3>
+
+                <p class="txt-justify">Выбирая потолок, мы обращаем внимание на качество материалов, дизайн, срок исполнения и другие факторы. Среди них немалую роль играет и стоимость. В связи с этим компания ООО "ПотолокСтудио" старается регулярно радовать своих клиентов специальными предложениями, которые помогут вам сэкономить бюджет. Здесь вы можете ознакомиться со всеми акциями, скидками и различными бонусами при заказе натяжных потолков у нас. Не забывайте, что мы всегда готовы пойти навстречу своим клиентам и обсудить индивидуальные условия в том случае, если вы все же не найдете для себя самого выгодного и интересного предложения.</p>
+                
+                <div class="promotions__new unvisible">
+                    <div class="promotions__new_info">
+                        <h3 class="unvisible">Новинка, фотопринт на потолок!</h3>
+                        <p class="txt-justify">Продумывая дизайн квартиры, мы хотим добиться не только красоты, уюта и удобства, но и уникальности. Интерьер дома отражает вкусы и характер хозяев, а необычные детали способны подчеркнуть их индивидуальность. Обычно мы уделяем много внимания напольным покрытиям и оформлению стен, совсем забывая про потолок, а ведь он тоже является важной деталью интерьера. Натяжные потолки с фотопечатью — отличный способ добавить помещению неординарности и создать в доме особое настроение.</p>
+                        <p>Создайте любой дизвйн своего потолка или можете выбрать фотопечать в каталоге:</p>
+                        <p class="txt-bold txt-shadow unvisible"><a class="scale txt-bold txt-shadow" href="pdf/art-gallery.pdf" title="PDF галлерея фотопечати">ГАЛЛЕРЕЯ</a></p>
+                    </div>
+                    <img class="unvisible" src="images/content/promotions/photo.jpg" alt="Фотопечать на потолке" title="Пример фотопечати на потолке">
+                </div>
+
+                <div class="promotions">
+
+                    <div class="promotions__post">
+                        <div class="promotions__post_img">
+                            <img class="parallaxU" src="images/content/promotions/promo1.jpg" alt="Пенсионеры" title="Скидка пенсионерам">
+                        </div>
+                        <div class="promotions__post_content">
+                            <div class="promotions__post_content_title">
+                                <h3 class="txt-yellow txt-shadow_black unvisible">Скидка пенсионерам</h3>
+                            </div>
+                            <div class="promotions__post_content_text unvisible">Наша Компания с неподдельным уважением относится к старшему поколению - нашим дорогим пенсионерам. Поэтому мы дарим вам скидку в размере <span class="txt-bold txt-yellow txt-shadow_black">10%</span> на все натяжные потолки.</div>
+                        </div>
+                    </div>
+
+                    <div class="promotions__post">
+                        <div class="promotions__post_img">
+                            <img class="parallaxD" src="images/content/promotions/promo2.jpg" alt="Подарок" title="Ванная и туалет в подарок!">
+                        </div>
+                        <div class="promotions__post_content">
+                            <div class="promotions__post_content_title">
+                                <h3 class="txt-yellow txt-shadow_black unvisible2">Ванная и туалет в подарок!</h3>
+                            </div>
+                            <div class="promotions__post_content_text unvisible2">При заказе натяжных потолков во всю квартиру - <span class="txt-bold txt-yellow txt-shadow_black">натяжной потолок в ванную комнату и туалет бесплатно!</span></div>
+                        </div>
+                    </div>
+
+                    <div class="promotions__post">
+                        <div class="promotions__post_img">
+                            <img class="parallaxU" src="images/content/promotions/promo3.jpg" alt="Новоселы" title="Скидка новосёлам">
+                        </div>
+                        <div class="promotions__post_content">
+                            <div class="promotions__post_content_title">
+                                <h3 class="txt-yellow txt-shadow_black unvisible">Скидка новосёлам</h3>
+                            </div>
+                            <div class="promotions__post_content_text unvisible">Вы - счастливые новосёлы? У нас имеется для вас приятная новость! Закажите натяжные потолки во всю вашу новую квартиру (от 40 квадратных метров) и получайте нашу скидку! <span class="txt-bold txt-yellow txt-shadow_black">Сэкономьте 15%</span> на новых натяжных потолках!</div>
+                        </div>
+                    </div>
+
+                    <div class="promotions__post">
+                        <div class="promotions__post_img">
+                            <img class="parallaxD" src="images/content/promotions/promo5.jpg" alt="Карниз" title="Карниз в подарок">
+                        </div>
+                        <div class="promotions__post_content">
+                            <div class="promotions__post_content_title">
+                                <h3 class="txt-yellow txt-shadow_black unvisible2">Карниз в подарок</h3>
+                            </div>
+                            <div class="promotions__post_content_text unvisible2">Закажите установку потолочного карниза и получите сам <span class="txt-bold txt-yellow txt-shadow_black">карниз совершенно бесплатно!</span></div>
+                        </div>
+                    </div>
+
+                    <div class="promotions__post">
+                        <div class="promotions__post_img">
+                            <img class="parallaxU" src="images/content/promotions/promo4.jpg" alt="Фотопечать на потолке" title="Фотопечать бесплатно!">
+                        </div>
+                        <div class="promotions__post_content">
+                            <div class="promotions__post_content_title">
+                                <h3 class="txt-yellow txt-shadow_black unvisible">Фотопечать бесплатно!</h3>
+                            </div>
+                            <div class="promotions__post_content_text unvisible">Встречайте наше предложение, которое не оставит равнодушными любителей оригинального дизайна и ярких, интересных решений в оформлении интерьера.При заказе потолков во всю квартиру (от 40 квадратных метров), мы изготовим для вас <span class="txt-bold txt-yellow txt-shadow_black">фотопечать площадью 1м.кв в подарок!</span></div>
+                        </div>
+                    </div>
+
+                    <div class="promotions__post">
+                        <div class="promotions__post_img">
+                            <img class="parallaxD" src="images/content/promotions/promo6.jpg" alt="Пульт" title="Пульт в подарок!">
+                        </div>
+                        <div class="promotions__post_content">
+                            <div class="promotions__post_content_title">
+                                <h3 class="txt-yellow txt-shadow_black unvisible2">Пульт в подарок!</h3>
+                            </div>
+                            <div class="promotions__post_content_text unvisible2">Спешите! До конца месяца при заказе и установке от 5 точечных светильников <span class="txt-bold txt-yellow txt-shadow_black">пульт управления для них вы получаете в подарок</span>! Акция не действует одновременно с другими акционными предложениями.</div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#" id="scroll_top"><img src="images/scroll_top.png" title="Вверх" alt="Вверх"></a>
+
+        </div>
+
+        <!--модальное для замера-->
+        <div class="modal-window">
+            <div class="box-modal" id="feedbackModal">
+                <div class="box-modal_close arcticmodal-close">X</div>
+                <p class="txt-bold txt-center">Замер в течении <span class="txt-yellow txt-shadow_black">24ч.</span></p>
+                <div>
+                    <span class="txt-bold">Ваше <span class="txt-yellow txt-shadow_black">имя:</span> </span>
+                    <input type="text" maxlength="30" id="client-name" name="client-name" required>
+                </div>
+                <div>
+                    <span class="txt-bold">Ваш <span class="txt-yellow txt-shadow_black">телефон:</span></span>
+                    <input type="tel" id="client-phone" name="client-phone" maxlength="11" placeholder="74951111111" required>
+                </div>
+                <div>
+                    <span class="txt-bold">Комментарий:</span>
+                    <textarea maxlength="250"></textarea>
+                </div>
+                <button>Записаться</button>
+            </div>
+        </div>
+
+        <script src="scripts/jquery-1.11.0.min.js"></script>
+        <script src="scripts/jquery-migrate-1.2.1.min.js"></script>
+        <script src="scripts/scripts-menu.js"></script> <!--скрипт для меню-->
+        <script src="scripts/jquery.arcticmodal-0.3.min.js"></script> <!--скрипт для модального окна-->
+        <script src="scripts/scripts-modal-one.js"></script> <!--скрипт для одного замера-->
+        <script src="scripts/scrollreveal.js"></script> <!--скрипт для скролла-->
+        <script src="scripts/scripts-for-scrollreveal.js"></script> <!--скрипт для скролла-->
+        <script src="scripts/simpleParallax.js"></script> <!--скрипт для параллакса-->
+        <script src="scripts/scripts-for-paralax-U-D-overflow.js"></script> <!--скрипт запускающий паралакс U D-->
+        <script src="scripts/script-to-top-btn.js"></script> <!--скрипт кнопки вверх-->
+
+    </main>
+
+<!--Footer-->   
+
+    <footer>
+        <div class="foot__line foot__line_top">
+            <div class="container">
+                <div class="foot foot__top">
+                    <div> Подписаться на нас в социальных сетях:
+                        <div>
+                            <a href="https://direct.yandex.ru/?utm_source=yandex&utm_medium=search&utm_campaign=maindirect_brand_desktop1304_othergeo&utm_content=none&---autotargeting&region=127&region_name=Швеция&etext=2202.Hx8G-S4lyhb43_4nGMHofVxaBSMs-dBO5j8LgnApecBuPhMBXj7nEHfmWUvGnmh5AFg2MccwfjKknF_otBA163hkY2R5dWNsc29nYWpzemo.86604b89cc62a6feeedcc3c67482de7021ba5382&yclid=1505079675547355159" target="_blank"><img class="svg-icon" src="svg/yandex-logo.svg" title="Перейти в Yandex" alt="Yandex"></a>
+                            <a href="https://vk.com" target="_blank"><img class="svg-icon" src="svg/vk-logo.svg" title="Перейти в VK" alt="VK"></a>
+                            <a href="https://telegram.org" target="_blank"><img class="svg-icon" src="svg/telegram-logo.svg" title="Перейти в Telegram" alt="Telegram"></a>
+                            <a href="https://www.youtube.com" target="_blank"><img class="svg-icon" src="svg/youtube-logo.svg" title="Перейти в YouTube" alt="YouTube"></a>
+                            <a href="https://www.instagram.com" target="_blank"><img class="svg-icon" src="svg/instagram-logo.svg" title="Перейти в Instagram" alt="Instagram"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div><span class="txt-bold">Адрес:</span> г. Москва, ул. Кировоградская, д. 23А, корп. 1, бизнес-центр «Art Gallery Business Park», цокольный этаж, каб. 23</div>
+                        <a class="txt-bold scale" href="contacts.html"><i class="icon-location2"></i> Карта</a>
+                    </div>
+                    <div>
+                        <div><a class="scale" href="tel:79267777777">+7 (926) XXX-XX-XX</a></div>
+                        <div><a class="scale" href="tel:74957777777">+7 (495) XXX-XX-XX</a></div>
+                        <div class="foot__mail txt-bold"><a class="scale" href="mailto:studiopotolok@google.com"><i class="icon-envelop"></i> StudioPotolok@google.com</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        <div class="foot__line foot__line_bottom">
+            <div class="container">
+                <div class="foot foot__bottom">
+                    <div>&copy; 2023 Компания "Студия потолков"</div>
+                    <img class="foot__bottom_img" alt="Виды оплат" src="images/payments.png">
+                    <a class="scale" href="privacy_policy.html">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
