@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/slick.css"> <!--cтиль для слайдера-->
+    <link rel="stylesheet" type="text/css" href="styles/slick-theme.css"> <!--стиль слайдера-->
+    <link rel="stylesheet" href="styles/jquery.arcticmodal-0.3.css"> <!--стиль модального окна-->
+    <link rel="stylesheet" href="styles/modal-theme-simple.css">  <!--светлый стиль модального окна-->
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="images/favicon.png" rel="shortcut icon"> 
+    <title>Натяжные потолки</title>
+</head>
+<body>  
+
+<!--Header-->
+    
+    <header>
+        <div class="container head">
+            <img class="head__logo" alt="Логотип компании" src="images/logo.png">
+            <div>
+                <span class="head__button head__button_start-page"><a class="cost" href="calculator.html"></a></span>
+                <span class="head__button head__button_start-page"><a class="measure" id="measureBtn" href="#"></a></span>
+            </div>
+            
+            <div class="head__contact_start-page head__contact">
+                <div>
+                    <div><a href="https://wa.me/79267777777" target="_blank"><img class="svg-icon" src="svg/whatsapp-logo.svg" title="Связаться по Whatsapp" alt="Whatsapp"></a></div>
+                    <div><a href="viber://chat?number=%2B79267777777" target="_blank"><img class="svg-icon" src="svg/viber-logo.svg" title="Связаться по Viber"  alt="Viber"></a></div>
+                </div>
+
+                <div>
+                    <div class="txt-small txt-bold">ежедневно с 9:00 до 21:00</div>
+                    <div><a class="scale" href="tel:79267777777" title="Связаться по телефону"> +7 (926) XXX-XX-XX</a></div>
+                    <div><a class="scale" href="tel:74957777777" title="Связаться по телефону"> +7 (495) XXX-XX-XX</a></div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="content__welcome"> Добро пожаловать в студию натяжных потолков! </div>
+
+<!--Main-->
+
+    <main class="wrapper">
+
+        <div class="head__line">
+            <nav class="container">
+                <button id="menuBtn" class="menu__button icon-menu"></button>
+                <ul id="menu" class="menu">
+                    <li class="menu-home"><a class="menu__link position" href="index.html"><i class="icon-home"></i> Главная</a></li>
+                    <li><a class="menu__link" href="price.html"><i class="icon-price-tag"></i> Цены</a></li>
+                    <li><a class="menu__link" href="light.html"><i class="icon-sun"></i> Освещение</a></li>
+                    <li><a class="menu__link" href="works.html"><i class="icon-hammer"></i> Работы</a></li>
+                    <li><a class="menu__link" href="promotions.html"><i class="icon-man"></i> Акции</a></li>
+                    <li><a class="menu__link" href="about.html"><i class="icon-book"></i> О компании</a></li>
+                    <li><a class="menu__link" href="contacts.html"><i class="icon-phone"></i> Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+     
+        <div class="container content content_start-page">
+            
+<!--Main_for_index_page-->
+
+            <div class="slider unvisible">
+                <div class="slider__slide">
+                    <img src="images/content/works/11.jpg" alt="Картинка из слайдера" class="slider__slide_img">
+                    <div class="slider__slide_content">
+                        <h2>Новый потолок в новую квартиру</h2>
+                        <p>новоселам скидка 15%</p>
+                    </div>
+                </div>
+                <div class="slider__slide">
+                    <img src="images/content/works/10.jpg" alt="Картинка из слайдера" class="slider__slide_img">
+                    <div class="slider__slide_content">
+                        <h2>Лучшие решения для Вашего дома</h2>
+                        <p>до конца месяца индивидуальные скидки</p>
+                    </div>
+                </div>
+                <div class="slider__slide">
+                    <img src="images/content/works/9.jpg" alt="Картинка из слайдера" class="slider__slide_img">
+                    <div class="slider__slide_content">
+                        <h2>Нашли дешевле, ЗВОНИТЕ!</h2>
+                        <p>будет выгоднее</p>
+                        <p><a class="scale" href="tel:74957777777" title="Связаться по телефону"> +7 (495) XXX-XX-XX</a></p>
+                        <p><a class="scale" href="tel:74957777777" title="Связаться по телефону"> +7 (495) XXX-XX-XX</a></p>
+                    </div>
+                </div>
+                <div class="slider__slide">
+                    <img src="images/content/works/8.jpg" alt="Картинка из слайдера" class="slider__slide_img">
+                    <div class="slider__slide_content">
+                        <h2>Только качественное выполнение работ в срок</h2>
+                        <p>замер в течении 1 дня</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content__page-index">
+                <h2 class="content__page-index_top txt-line_bottom unvisible2"><span class="txt-yellow txt-shadow">Натяжные потолки</span> в Москве от 400 ₽/м² с установкой от 1.5 часов <span class="txt-yellow txt-shadow">без предоплаты</span> и гарантией на монтаж 3 года!</h2>
+                
+                <div class="content__page-index_left">
+                    <div class="box-paper ">
+                        <ul class="box-paper__list-quality unvisible">
+                            <li class="box-paper__list-quality_item unvisible">Установка и монтаж натяжных потолков любой сложности в квартиры и офисы.</li>
+                            <li class="box-paper__list-quality_item unvisible2">Современное освещение с возможностью голосового управления.</li>
+                            <li class="box-paper__list-quality_item unvisible">Разработка дизайн-проекта.</li>
+                            <li class="box-paper__list-quality_item unvisible2">Собственное производство и установка, своя бригада.</li>
+                            <li class="box-paper__list-quality_item unvisible">Принимаем к оплате банковские карты.</li>
+                            <li class="box-paper__list-quality_item unvisible2">Бесплатный выездспециалиста на объект для замера и консультации.</li>
+                        </ul>
+                        <a id="consultBtn" class="box-paper__button unvisible2" href="#">консультироваться</a>
+                    </div>
+                </div>
+
+                <div class="content__page-index_right">
+                    <div class="box">
+                        <div class="box__message unvisible2">
+                            <div class="box__message_text">
+                                <h3 class="unvisible">Если вы еще сомневаетесь, то у нас для вас <span class="txt-yellow txt-shadow">персональное предложение!</span></h3>
+                                <img class="box__message_img" alt="Монтажник" src="images/installer/3.png">
+                                <p>Выбирайте небольшую площадь у себя в квартире (доме), например: коридор, кухня,ванна или санузел.</p>
+                                <p>Мы вам делаем натяжной потолок с максимальной скидкой (практически даром), а вы потом принимаете решение стоит ли доверять нам.</p>
+                            </div>
+                            <a id="discountBtn" class="box__message_button" href="#">воспользоваться</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content__page-index_bottom txt-line_top">
+                    <h2 class="unvisible"><span class="txt-yellow txt-shadow">Бесплатно консультируем.</span> Оставьте Ваши контактные данные и <span class="txt-yellow txt-shadow"> мы с Вами свяжемся:</span></h2>
+                    <form class="form-contact">
+                        <div class="form-contact__caption unvisible2">Вы можете задать вопрос и получить консультацию, для этого оставьте Ваши контактные данные и мы Вам перезвоним.</div>
+                            <div class="form-contact__group">
+                                <div class="form-contact__group_item">
+                                    <div><label for="client-name" class="unvisible">Ваше имя: </label></div>
+                                    <input class="unvisible2" type="text" maxlength="30" name="client-name" required>
+                                </div>
+                                <div class="form-contact__group_item">
+                                    <div><label for="client-phone" class="unvisible">Ваш телефон: </label></div>
+                                    <input type="tel" class="unvisible2" name="client-phone" maxlength="11" placeholder="74951111111" required>
+                                </div>
+                            </div>
+                        <label class="unvisible">Комментарий: </label>
+                        <textarea maxlength="1200" class="unvisible2"></textarea>
+                        <button class="unvisible">Отправить</button>
+                    </form>
+
+                    <div class="box-light-present unvisible2"><h2 class="txt-shadow">Светильники в подарок!</h2>
+                        <div class="box-light-present__content">
+                            <div class="box-light-present__content_text"><p>Получите потолочные светильники в подарок при заказе натяжного потолка!</p>
+                                <a id="presentBtn" class="box-light-present__content_button" href="#">Получить подарок</a>
+                            </div>
+                            <img class="box-light-present__content_img parallaxR" alt="Лампочка" src="images/light.png">
+                        </div>
+                    </div>
+
+                    <h2 class="unvisible">Почему <span class="txt-yellow txt-shadow">PotolokStudio</span> лучше?</h2>
+                    
+                    <div class="box-advantages">
+                        <div class="box-advantages__box-content unvisible">
+                            <img class="box-advantages__box-content_img parallaxL" alt="Преимущества" src="images/advantages/1.png">
+                            <div class="box-advantages__box-content_text">Гаранития и сервисное обслуживание</div>
+                        </div>
+
+                        <div class="box-advantages__box-content unvisible2">
+                            <img class="box-advantages__box-content_img parallaxL" alt="Преимущества" src="images/advantages/2.png">
+                            <div class="box-advantages__box-content_text">Бесплатный выезд замерщика</div>
+                        </div>
+
+                        <div class="box-advantages__box-content unvisible">
+                            <img class="box-advantages__box-content_img parallaxL" alt="Преимущества" src="images/advantages/3.png">
+                            <div class="box-advantages__box-content_text">Все материалы сертифицированы</div>
+                        </div>
+
+                        <div class="box-advantages__box-content unvisible">
+                            <img class="box-advantages__box-content_img" alt="Преимущества" src="images/advantages/4.png">
+                            <div class="box-advantages__box-content_text">Монтаж без задержек</div>
+                        </div>
+
+                        <div class="box-advantages__box-content unvisible2">
+                            <img class="box-advantages__box-content_img parallaxR" alt="Преимущества" src="images/advantages/5.png">
+                            <div class="box-advantages__box-content_text">Только опытные специалисты</div>
+                        </div>
+
+                        <div class="box-advantages__box-content unvisible2">
+                            <img class="box-advantages__box-content_img parallaxR" alt="Преимущества" src="images/advantages/6.png">
+                            <div class="box-advantages__box-content_text">Рассрочка 0% и любой вид оплаты</div>
+                        </div>
+
+                        <div class="box-advantages__box-content unvisible">
+                            <img class="box-advantages__box-content_img parallaxR" alt="Преимущества" src="images/advantages/7.png">
+                            <div class="box-advantages__box-content_text">Безопасный монтаж</div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+
+            <!--модальное для замера-->
+            <div class="modal-window">
+                <div class="box-modal" id="feedbackModal">
+                    <div class="box-modal_close arcticmodal-close">X</div>
+                    <p class="txt-bold txt-center">Замер в течении <span class="txt-yellow txt-shadow_black">24ч.</span></p>
+                    <div>
+                        <span class="txt-bold">Ваше <span class="txt-yellow txt-shadow_black">имя:</span> </span>
+                        <input type="text" maxlength="30" id="client-name" name="client-name" required>
+                    </div>
+                    <div>
+                        <span class="txt-bold">Ваш <span class="txt-yellow txt-shadow_black">телефон:</span></span>
+                        <input type="tel" id="client-phone" name="client-phone" maxlength="11" placeholder="74951111111" required>
+                    </div>
+                    <div>
+                        <span class="txt-bold">Комментарий:</span>
+                        <textarea maxlength="250"></textarea>
+                    </div>
+                    <button>Записаться</button>
+                </div>
+            </div>
+
+            <!--модальное для консультации-->
+            <div class="modal-window">
+                <div class="box-modal" id="consultModal">
+                    <div class="box-modal_close arcticmodal-close">X</div>
+                    <p class="txt-bold txt-center"><span class="txt-yellow txt-shadow_black">Бесплатная </span> консультация</p>
+                    <div>
+                        <span class="txt-bold">Ваше <span class="txt-yellow txt-shadow_black">имя:</span> </span>
+                        <input type="text" maxlength="30" id="client-name-cons" name="client-name" required>
+                    </div>
+                    <div>
+                        <span class="txt-bold">Ваш <span class="txt-yellow txt-shadow_black">телефон:</span></span>
+                        <input type="tel" id="client-phone-cons" name="client-phone" maxlength="11" placeholder="74951111111" required>
+                    </div>
+                    <div>
+                        <span class="txt-bold">Комментарий:</span>
+                        <textarea maxlength="250"></textarea>
+                    </div>
+                    <button>Консультироваться</button>
+                </div>
+            </div>
+
+            <!--модальное для персонального предложения-->
+            <div class="modal-window">
+                <div class="box-modal" id="discountModal">
+                    <div class="box-modal_close arcticmodal-close">X</div>
+                    <p class="txt-bold txt-center"><span class="txt-yellow txt-shadow_black">Специальное </span> предложение</p>
+                    <div>
+                        <span class="txt-bold">Ваше <span class="txt-yellow txt-shadow_black">имя:</span> </span>
+                        <input type="text" maxlength="30" id="client-name-disc" name="client-name" required>
+                    </div>
+                    <div>
+                        <span class="txt-bold">Ваш <span class="txt-yellow txt-shadow_black">телефон:</span></span>
+                        <input type="tel" id="client-phone-disc" name="client-phone" maxlength="11" placeholder="74951111111" required>
+                    </div>
+                    <div>
+                        <span class="txt-bold">Комментарий:</span>
+                        <textarea maxlength="250"></textarea>
+                    </div>
+                    <button>Воспользоваться</button>
+                </div>
+            </div>
+            
+            <!--модальное для подарка-->
+            <div class="modal-window">
+                <div class="box-modal" id="presentModal">
+                    <div class="box-modal_close arcticmodal-close">X</div>
+                    <p class="txt-bold txt-center"><span class="txt-yellow txt-shadow_black">Подарок </span> при заказе потолка</p>
+                    <div>
+                        <span class="txt-bold">Ваше <span class="txt-yellow txt-shadow_black">имя:</span> </span>
+                        <input type="text" maxlength="30" id="client-name-pres" name="client-name" required>
+                    </div>
+                    <div>
+                        <span class="txt-bold">Ваш <span class="txt-yellow txt-shadow_black">телефон:</span></span>
+                        <input type="tel" id="client-phone-pres" name="client-phone" maxlength="11" placeholder="74951111111" required>
+                    </div>
+                    <div>
+                        <span class="txt-bold">Комментарий:</span>
+                        <textarea maxlength="250"></textarea>
+                    </div>
+                    <button>Получить</button>
+                </div>
+            </div>
+
+            <a href="#" id="scroll_top"><img src="images/scroll_top.png" title="Вверх" alt="Вверх"></a>
+                
+        </div>
+
+        <script src="scripts/jquery-1.11.0.min.js"></script>
+        <script src="scripts/jquery-migrate-1.2.1.min.js"></script>
+        <script src="scripts/slick/slick.min.js"></script> <!--скрипт слайдера-->
+        <script src="scripts/scripts-for-sclick.js"></script> <!--вызов обработчика для слайдера-->
+        <script src="scripts/jquery.arcticmodal-0.3.min.js"></script> <!--скрипт для модального окна-->
+        <script src="scripts/scripts-menu.js"></script> <!--скрипт для меню-->
+        <script src="scripts/scripts-modal-index-page.js"></script> <!--скрипт для модальных окон-->
+        <script src="scripts/simpleParallax.js"></script> <!--скрипт для параллакса-->
+        <script src="scripts/scripts-for-paralax-L-R-overflow.js"></script> <!--скрипт запускающий паралакс для изображений-->
+        <script src="scripts/scrollreveal.js"></script> <!--скрипт для скролла-->
+        <script src="scripts/scripts-for-scrollreveal.js"></script> <!--скрипт для скролла-->
+        <script src="scripts/script-to-top-btn.js"></script> <!--скрипт кнопки вверх-->
+    </main>
+
+<!--Footer-->   
+
+    <footer>
+        <div class="foot__line foot__line_top">
+            <div class="container">
+                <div class="foot foot__top">
+                    <div> Подписаться на нас в социальных сетях:
+                        <div>
+                            <a href="https://direct.yandex.ru/?utm_source=yandex&utm_medium=search&utm_campaign=maindirect_brand_desktop1304_othergeo&utm_content=none&---autotargeting&region=127&region_name=Швеция&etext=2202.Hx8G-S4lyhb43_4nGMHofVxaBSMs-dBO5j8LgnApecBuPhMBXj7nEHfmWUvGnmh5AFg2MccwfjKknF_otBA163hkY2R5dWNsc29nYWpzemo.86604b89cc62a6feeedcc3c67482de7021ba5382&yclid=1505079675547355159" target="_blank"><img class="svg-icon" src="svg/yandex-logo.svg" title="Перейти в Yandex" alt="Yandex"></a>
+                            <a href="https://vk.com" target="_blank"><img class="svg-icon" src="svg/vk-logo.svg" title="Перейти в VK" alt="VK"></a>
+                            <a href="https://telegram.org" target="_blank"><img class="svg-icon" src="svg/telegram-logo.svg" title="Перейти в Telegram" alt="Telegram"></a>
+                            <a href="https://www.youtube.com" target="_blank"><img class="svg-icon" src="svg/youtube-logo.svg" title="Перейти в YouTube" alt="YouTube"></a>
+                            <a href="https://www.instagram.com" target="_blank"><img class="svg-icon" src="svg/instagram-logo.svg" title="Перейти в Instagram" alt="Instagram"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div><span class="txt-bold">Адрес:</span> г. Москва, ул. Кировоградская, д. 23А, корп. 1, бизнес-центр «Art Gallery Business Park», цокольный этаж, каб. 23</div>
+                        <a class="txt-bold scale" href="contacts.html"><i class="icon-location2"></i> Карта</a>
+                    </div>
+                    <div>
+                        <div><a class="scale" href="tel:79267777777">+7 (926) XXX-XX-XX</a></div>
+                        <div><a class="scale" href="tel:74957777777">+7 (495) XXX-XX-XX</a></div>
+                        <div class="foot__mail txt-bold"><a class="scale" href="mailto:studiopotolok@google.com"><i class="icon-envelop"></i> StudioPotolok@google.com</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        <div class="foot__line foot__line_bottom">
+            <div class="container">
+                <div class="foot foot__bottom">
+                    <div>&copy; 2023 Компания "Студия потолков"</div>
+                    <img class="foot__bottom_img" alt="Виды оплат" src="images/payments.png">
+                    <a class="scale" href="privacy_policy.html">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/jquery.arcticmodal-0.3.css"> <!--стиль модального окна-->
+    <link rel="stylesheet" href="styles/modal-theme-simple.css">  <!--светлый стиль модального окна-->
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="images/favicon.png" rel="shortcut icon">
+    <title>Цены на натяжные потолки</title>
+</head>
+<body>  
+
+<!--Header-->
+    
+    <header>
+        <div class="container head">
+            <img class="head__logo" alt="Логотип компании" src="images/logo.png">
+            <div>
+                <span class="head__button"><a class="cost" href="calculator.html"></a></span>
+                <span class="head__button"><a class="measure" id="measureBtn" href="#"></a></span>
+            </div>
+            
+            <div class="head__contact">
+                <div>
+                    <div><a href="https://wa.me/79267777777" target="_blank"><img class="svg-icon" src="svg/whatsapp-logo.svg" title="Связаться по Whatsapp" alt="Whatsapp"></a></div>
+                    <div><a href="viber://chat?number=%2B79267777777" target="_blank"><img class="svg-icon" src="svg/viber-logo.svg" title="Связаться по Viber"  alt="Viber"></a></div>
+                </div>
+
+                <div>
+                    <div class="txt-small txt-bold">ежедневно с 9:00 до 21:00</div>
+                    <div><a class="scale" href="tel:79267777777" title="Связаться по телефону"> +7 (926) XXX-XX-XX</a></div>
+                    <div><a class="scale" href="tel:74957777777" title="Связаться по телефону"> +7 (495) XXX-XX-XX</a></div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+<!--Main-->
+
+    <main class="wrapper">
+
+        <div class="head__line">
+            <nav class="container">
+                <button id="menuBtn" class="menu__button icon-menu"></button>
+                <ul id="menu" class="menu">
+                    <li class="menu-home"><a class="menu__link" href="index.html"><i class="icon-home"></i> Главная</a></li>
+                    <li><a class="menu__link position" href="price.html"><i class="icon-price-tag"></i> Цены</a></li>
+                    <li><a class="menu__link" href="light.html"><i class="icon-sun"></i> Освещение</a></li>
+                    <li><a class="menu__link" href="works.html"><i class="icon-hammer"></i> Работы</a></li>
+                    <li><a class="menu__link" href="promotions.html"><i class="icon-man"></i> Акции</a></li>
+                    <li><a class="menu__link" href="about.html"><i class="icon-book"></i> О компании</a></li>
+                    <li><a class="menu__link" href="contacts.html"><i class="icon-phone"></i> Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container content">
+
+<!--Main_for_price-pvc_page-->
+    
+            <div class="container__price-page"> 
+                <div class="container__price-page_side-bar">
+                    <!--Список сайдбара-->
+                    <ul class="price-list"> 
+                        <li>По материалу</li>
+                        <li><a class="price-list__position-price" href="price-pvc.html">ПВХ</a></li>
+                        <li><a href="price-cloth.html">Тканевые</a></li>
+                        <li><a href="price-satin.html">Сатиновые</a></li>
+                    </ul>
+                    <ul class="price-list"> 
+                        <li>По фактуре</li>
+                        <li><a href="price-gloss.html">Глянцевые</a></li>
+                        <li><a href="price-matte.html">Матовые</a></li>
+                    </ul>
+                    <ul class="price-list"> 
+                        <li>По конструкции</li>
+                        <li><a href="price-silent.html">Бесшовные</a></li>
+                        <li><a href="price-multilevel.html">Многоуровневые</a></li>
+                        <li><a href="price-soaring.html">Парящие</a></li>
+                    </ul>
+                </div>
+            
+                <div>
+                    <ul class="submenu txt-small">
+                        <li><a href="index.html" title="Перейти на главную страниицу">Главная</a></li>
+                        <li><a href="price.html" title="Перейтин на страницу с ценами">Цены</a></li>
+                        <li><a href="price-pvc.html" title="Вы находитесь на данной странице">ПВХ</a></li>
+                    </ul>
+                    <div class="txt-line_top"></div>
+                    <h3>Натяжные потолки <span class="txt-yellow txt-shadow">ПВХ</span></h3>
+                    <div>
+                    
+                        <div class="box-description">
+                            <img class="box-description__img box-description__img_left" src="images/example-of-materials/pvc.jpg" alt="ПВХ материал" title="ПВХ материал натяжного потолка">
+                            <p>Предлагаем вам установку натяжных потолков ПВХ в Москве. Имея большой опыт данной работы, мы выполняем ее быстро и качественно, используем только надежные материалы от проверенных производителей.</p>
+                            <p class="txt-center txt-bold"><button id="orederBtn" class="box-description__button">Заказать</button> от 550 руб/м2 <span class="txt-small txt-normal"> (Цена указана c установкой под ключ. Для удобства.)</span></p>
+                            <p>Пленка из поливинилхлорида делает потолок максимально гладким. Под воздействием высокой температуры жесткий ПВХ размягчается, становится эластичным и подходит для работы с любыми конструкциями. Остывающая пленка постепенно возвращает свой вид и хорошо скрывает все дефекты поверхности.</p>
+                            <p>ПВХ пленка не требует особого ухода и служит более 10 лет, без потери качеств и свойств. В случае если на нее попадает большое количество воды, она растягивается и выдерживает давление до 100 кг/м2.</p>
+                        </div>
+                    
+                        <table class="table-price unvisible">
+                            <tr>
+                                <th>Материал</th>
+                                <th>Температура эксплуатации, °С</th>
+                                <th>Гарантия</th>
+                                <th>Цена за 1м2 с установкой</th>
+                            </tr>
+                            <tr class="table-price__country">
+                                <td colspan="4" class="table-price__logo table-price__logo_msdn table-price__country_china">Китай</td>
+                            </tr>
+                            <tr>
+                                <td>Матовый белый</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>550 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Матовый цветной</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>850 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Глянцевый белый</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>600 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Глянцевый цветной</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>850 руб.</td>
+                            </tr>
+                            <tr class="table-price__country">
+                                <td colspan="4" class="table-price__logo table-price__logo_pongs table-price__country_germany">Германия</td>
+                            </tr>
+                            <tr>
+                                <td>Матовый белый</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>900 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Матовый цветной</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>1200 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Глянцевый белый</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>950 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Глянцевый цветной</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>1200 руб.</td>
+                            </tr>
+                            <tr class="table-price__country">
+                                <td colspan="4" class="table-price__logo table-price__logo_polyplast table-price__country_belgium">Бельгия</td>
+                            </tr>
+                            <tr>
+                                <td>Матовый белый</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>950 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Матовый цветной</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>1260 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Глянцевый белый</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>1000 руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Глянцевый цветной</td>
+                                <td>от 0 °С до +60 °С</td>
+                                <td>15 лет</td>
+                                <td>1250 руб.</td>
+                            </tr>
+                        </table>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" id="scroll_top"><img src="images/scroll_top.png" title="Вверх" alt="Вверх"></a>
+
+        </div>
+
+        <!--модальное для замера-->
+        <div class="modal-window">
+            <div class="box-modal" id="feedbackModal">
+                <div class="box-modal_close arcticmodal-close">X</div>
+                <p class="txt-bold txt-center">Замер в течении <span class="txt-yellow txt-shadow_black">24ч.</span></p>
+                <div>
+                    <span class="txt-bold">Ваше <span class="txt-yellow txt-shadow_black">имя:</span> </span>
+                    <input type="text" maxlength="30" id="client-name" name="client-name" required>
+                </div>
+                <div>
+                    <span class="txt-bold">Ваш <span class="txt-yellow txt-shadow_black">телефон:</span></span>
+                    <input type="tel" id="client-phone" name="client-phone" maxlength="11" placeholder="74951111111" required>
+                </div>
+                <div>
+                    <span class="txt-bold">Комментарий:</span>
+                    <textarea maxlength="250"></textarea>
+                </div>
+                <button>Записаться</button>
+            </div>
+        </div>
+
+        <!--модальное для заказа-->
+        <div class="modal-window">
+            <div class="box-modal" id="orderModal">
+                <div class="box-modal_close arcticmodal-close">X</div>
+                <p class="txt-bold txt-center"><span class="txt-yellow txt-shadow_black">Монтаж</span> потолока без ожиданий</p>
+                <div>
+                    <span class="txt-bold">Ваше <span class="txt-yellow txt-shadow_black">имя:</span> </span>
+                    <input type="text" maxlength="30" id="client-name-order" name="client-name" required>
+                </div>
+                <div>
+                    <span class="txt-bold">Ваш <span class="txt-yellow txt-shadow_black">телефон:</span></span>
+                    <input type="tel" id="client-phone-order" name="client-phone" maxlength="11" placeholder="74951111111" required>
+                </div>
+                <div>
+                    <span class="txt-bold">Комментарий:</span>
+                    <textarea maxlength="250"></textarea>
+                </div>
+                <button>Заказать</button>
+            </div>
+        </div>
+        
+        <script src="scripts/jquery-1.11.0.min.js"></script>
+        <script src="scripts/jquery-migrate-1.2.1.min.js"></script>
+        <script src="scripts/jquery.arcticmodal-0.3.min.js"></script> <!--скрипт для модального окна-->
+        <script src="scripts/scripts-menu.js"></script> <!--скрипт для меню-->
+        <script src="scripts/scripts-modal-price-pages.js"></script>
+        <script src="scripts/scrollreveal.js"></script> <!--скрипт для скролла-->
+        <script src="scripts/scripts-for-scrollreveal.js"></script> <!--скрипт для скролла-->
+        <script src="scripts/script-to-top-btn.js"></script> <!--скрипт кнопки вверх-->
+            
+    </main>
+
+<!--Footer-->   
+
+    <footer>
+        <div class="foot__line foot__line_top">
+            <div class="container">
+                <div class="foot foot__top">
+                    <div> Подписаться на нас в социальных сетях:
+                        <div>
+                            <a href="https://direct.yandex.ru/?utm_source=yandex&utm_medium=search&utm_campaign=maindirect_brand_desktop1304_othergeo&utm_content=none&---autotargeting&region=127&region_name=Швеция&etext=2202.Hx8G-S4lyhb43_4nGMHofVxaBSMs-dBO5j8LgnApecBuPhMBXj7nEHfmWUvGnmh5AFg2MccwfjKknF_otBA163hkY2R5dWNsc29nYWpzemo.86604b89cc62a6feeedcc3c67482de7021ba5382&yclid=1505079675547355159" target="_blank"><img class="svg-icon" src="svg/yandex-logo.svg" title="Перейти в Yandex" alt="Yandex"></a>
+                            <a href="https://vk.com" target="_blank"><img class="svg-icon" src="svg/vk-logo.svg" title="Перейти в VK" alt="VK"></a>
+                            <a href="https://telegram.org" target="_blank"><img class="svg-icon" src="svg/telegram-logo.svg" title="Перейти в Telegram" alt="Telegram"></a>
+                            <a href="https://www.youtube.com" target="_blank"><img class="svg-icon" src="svg/youtube-logo.svg" title="Перейти в YouTube" alt="YouTube"></a>
+                            <a href="https://www.instagram.com" target="_blank"><img class="svg-icon" src="svg/instagram-logo.svg" title="Перейти в Instagram" alt="Instagram"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div><span class="txt-bold">Адрес:</span> г. Москва, ул. Кировоградская, д. 23А, корп. 1, бизнес-центр «Art Gallery Business Park», цокольный этаж, каб. 23</div>
+                        <a class="txt-bold scale" href="contacts.html"><i class="icon-location2"></i> Карта</a>
+                    </div>
+                    <div>
+                        <div><a class="scale" href="tel:79267777777">+7 (926) XXX-XX-XX</a></div>
+                        <div><a class="scale" href="tel:74957777777">+7 (495) XXX-XX-XX</a></div>
+                        <div class="foot__mail txt-bold"><a class="scale" href="mailto:studiopotolok@google.com"><i class="icon-envelop"></i> StudioPotolok@google.com</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        <div class="foot__line foot__line_bottom">
+            <div class="container">
+                <div class="foot foot__bottom">
+                    <div>&copy; 2023 Компания "Студия потолков"</div>
+                    <img class="foot__bottom_img" alt="Виды оплат" src="images/payments.png">
+                    <a class="scale" href="privacy_policy.html">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
